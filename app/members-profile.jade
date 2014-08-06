@@ -1,0 +1,53 @@
+doctype html
+html(class="no-js", lang="en")
+  include header
+  
+  body
+    div.page-wrap
+      // Menu
+      include main-menu
+      
+      // Content
+      div.row.container.content
+        div.row.container
+          div.small-2.columns.menu-side
+            a.button.green.radius.small.expand.no-margin New Search
+            hr
+            ul.no-bullet.text-center
+              li: a(href="members-orders.html") My Orders
+              li.selected: a Edit Profile
+              li: a Logout
+            hr
+            form(action="")
+              input(type="text", name="search-order")
+              input(type="submit", name="search-order-bt", value="Search Order", class="button green radius small expand no-margin")  
+
+          div.small-9.small-offset-1.columns
+            h3 Change your user profile
+            div.row
+              form(action="#", class="small-8 columns end", data-abide)
+                label First Name
+                      input(type="text", name="edit-first-name", placeholder="Note For Dev: Change to Current First Name")
+         
+                label Last Name
+                      input(type="text", name="edit-last-name", placeholder="Note For Dev: Change to Current Last Name")
+
+                label Email 
+                      input(type="email", name="edit-email", placeholder="Note For Dev: Change to Current email")
+
+                label Password 
+                      input(type="password", name="edit-password", id="password", placeholder="Note For Dev: Change to Current Password")
+
+                label Password (Confirmation)
+                      input(type="password", name="edit-password-confirm", data-equalto="password", placeholder="Note For Dev: Change to Current Password")
+                      small.error The password did not match
+                            
+                input(type="button", name="", class="button green radius", value="Save changes")
+
+      // Footer
+      include secondary-menu
+      // Modals
+      include modals
+
+    // Footer
+    include footer

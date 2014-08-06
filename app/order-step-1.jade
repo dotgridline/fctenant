@@ -1,0 +1,51 @@
+doctype html
+html(class="no-js", lang="en")
+  include header
+  
+  body.order-step2
+    div.page-wrap
+      // Menu
+      include main-menu
+      // Content
+      div.row.container.content
+        //Order Steps 
+        div.row
+            ul.small-block-grid-3.panel-step
+              li.panel-step-1 
+                div.number-highlight.small-4.columns.left 1
+                div.small-8.columns.number-description
+                  div.panel-highlight Tenant
+                  | Verification
+                div.step-indicator
+              li.panel-step-2
+                div.number-highlight.small-4.columns.left 2
+                div.small-8.columns.number-description
+                  div.panel-highlight Select Your
+                  | Package
+              li.panel-step-3
+                div.number-highlight.small-4.columns.left 3
+                div.small-8.columns.number-description
+                  div.panel-highlight Download
+                  | Reports
+        
+        //Search Form
+        div.row
+          form(class="small-6 columns small-centered", action="order-step-2.html")
+            div.row
+              label First Name
+                    input(type="text")        
+              label Last Name
+                    input(type="text")
+              label SSN
+                    input(type="text")
+            div.row
+              input(class="button green radius expand", type="submit", value="Search")
+
+      // Footer
+      include secondary-menu
+      // Modals
+      include modals
+
+    include footer
+
+

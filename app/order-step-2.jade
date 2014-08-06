@@ -1,0 +1,94 @@
+doctype html
+html(class="no-js", lang="en")
+  include header
+  
+  body.products
+    div.page-wrap
+      // Menu
+      include main-menu
+      // Content
+      div.row.container.content
+        //Order Steps 
+        div.row.container
+            ul.small-block-grid-3.panel-step
+              li.panel-step-1 
+                div.number-highlight.small-4.columns 1
+                div.small-8.columns.number-description
+                  div.panel-highlight Tenant
+                  | Verification
+              li.panel-step-2
+                div.number-highlight.small-4.columns 2
+                div.small-8.columns.number-description
+                  div.panel-highlight Select Your
+                  | Package
+                div.step-indicator
+              li.panel-step-3
+                div.number-highlight.small-4.columns 3
+                div.small-8.columns.number-description
+                  div.panel-highlight Download
+                  | Reports
+
+        //Package Creator
+        div.row
+          // Base Package
+          div.small-3.columns
+            ul.pricing-table
+              li.title Base Package
+              li.bullet-item
+                input(type="checkbox", name="basic-report", id="basic-report", checked)
+                label(for="basic-report") Basic Report
+              li.bullet-item
+                input(type="checkbox", name="sex-offenders-report", id="sex-offenders-report", checked)
+                label(for="sex-offenders-report") Sex Offenders
+              li.bullet-item
+                input(type="checkbox", name="ofac-report", id="ofac-report", checked)
+                label(for="ofac-report") OFAC Report
+              li.bullet-item
+                input(type="checkbox", name="eviction-report", id="eviction-report", checked)
+                label(for="eviction-report") Eviction Report
+
+          //Addons
+          div.small-8.small-offset-1.columns
+            ul.pricing-table.small-block-grid-2 
+              li.alignment-hack       
+              li(class="title",style="width:100%") Addons
+              li.bullet-item
+                input(type="checkbox", name="credit-report", id="credit-report")
+                label(for="credit-report") Credit Report
+              li.bullet-item
+                input(type="checkbox", name="county-criminal", id="county-criminal")
+                label(for="county-criminal") County Criminal
+              li.bullet-item
+                input(type="checkbox", name="judgment-search", id="judgment-search")
+                label(for="judgment-search") Judgment Search
+              li.bullet-item
+                input(type="checkbox", name="assured-tenant", id="assured-tenant")
+                label(for="assured-tenant") Assured Tenant
+              li.bullet-item
+                input(type="checkbox", name="court-actions", id="court-actions")
+                label(for="court-actions") Court Actions         
+              li.bullet-item
+                input(type="checkbox", name="unlawful-detainers", id="unlawful-detainers")
+                label(for="unlawful-detainers") Unlawful Detainers
+              li.bullet-item
+                input(type="checkbox", name="monetary-judgments", id="monetary-judgments")
+                label(for="monetary-judgments") Monetary Judgments
+              li.bullet-item
+                input(type="checkbox", name="court-ordered-possession", id="court-ordered-possession")
+                label(for="court-ordered-possession") Court Ordered Possession
+              li.bullet-item
+                input(type="checkbox", name="property-damage-claims", id="property-damage-claims")
+                label(for="property-damage-claims") Property Damage Claims
+
+        // Next Button
+        div.row
+          input(type="submit", class="button green radius small-2 small-offset-10 columns", value="Next")
+
+      // Footer
+      include secondary-menu
+      // Modals
+      include modals
+
+    include footer
+
+

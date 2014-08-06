@@ -1,0 +1,1178 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bacg",
+				"background-color"
+			],
+			[
+				"small",
+				"small-block-grid-3"
+			],
+			[
+				"small-bl",
+				"small-block-grid-3"
+			],
+			[
+				"credi",
+				"credit-card-info"
+			],
+			[
+				"bg",
+				"bg+	background: ${1:#fff} url(${2}) ${3:0} ${4:0} ${5:no-repeat};"
+			],
+			[
+				"br",
+				"border-radius"
+			],
+			[
+				"pri",
+				"primary-color"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"color-ligh",
+				"color-light-blue"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"data-reveal",
+				"data-reveal-id"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"input",
+				"input	input - button"
+			],
+			[
+				"Table",
+				"TABLE	Tag"
+			],
+			[
+				"tex-",
+				"text-decoration"
+			],
+			[
+				"color",
+				"primary-color"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"re",
+				"resize"
+			],
+			[
+				"tab",
+				"tabindex	Attr"
+			],
+			[
+				"style",
+				"font-style"
+			],
+			[
+				"styl",
+				"style	Attr"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"t_",
+				"t_italic"
+			],
+			[
+				"bga",
+				"background"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"tbody",
+				"tbody	Tag"
+			],
+			[
+				"border-",
+				"border-width"
+			],
+			[
+				"pla",
+				"placeholder=  (attribute)"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"fonts",
+				"font-style"
+			],
+			[
+				"ul",
+				"ul"
+			],
+			[
+				"align",
+				"align"
+			],
+			[
+				"va",
+				"valign"
+			],
+			[
+				"form",
+				"form	<form>"
+			],
+			[
+				"script",
+				"script	Tag"
+			],
+			[
+				"border",
+				"border-box"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"background-",
+				"background-position"
+			],
+			[
+				"select",
+				"select	Tag"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"out",
+				"outline-style"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"no",
+				"no-repeat  (value)"
+			],
+			[
+				"web",
+				"-webkit-appearance:   (property)"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"impor",
+				"@import	@import url(${0});"
+			],
+			[
+				"println",
+				"println	println text"
+			],
+			[
+				"criti",
+				"criticsRateBar"
+			],
+			[
+				"lin",
+				"link	link - stylesheet"
+			],
+			[
+				"backgrouns",
+				"background-position"
+			],
+			[
+				"i",
+				"img	Tag"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"expe",
+				"experience-institution"
+			],
+			[
+				"type",
+				"type	Attr"
+			],
+			[
+				"portfolio",
+				"portfolio_grid"
+			],
+			[
+				"sc",
+				"script	<script>"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"rect",
+				"rect	rectMode"
+			],
+			[
+				"delay",
+				"delayTime"
+			],
+			[
+				"click",
+				"clickCounter"
+			],
+			[
+				"dela",
+				"delay	Arduino delay()"
+			],
+			[
+				"two",
+				"two"
+			],
+			[
+				"cli",
+				"clickCounter"
+			],
+			[
+				"led",
+				"ledBlink"
+			],
+			[
+				"button",
+				"buttonClick"
+			],
+			[
+				"botao",
+				"botaoDaPaula"
+			],
+			[
+				"inline",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Processing/Processing.sublime-build",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"csscom",
+				"Run CSScomb JS"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"fou",
+				"Snippet: ZURB Foundation 5 Pricing Table"
+			],
+			[
+				"jd",
+				"Set Syntax: Jade"
+			],
+			[
+				"gutter",
+				"Preferences: GutterColor Settings – User"
+			],
+			[
+				"updae",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"colou",
+				"Preferences: GutterColor Settings – Default"
+			],
+			[
+				"isnt",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"foundation",
+				"Snippet: ZURB Foundation Half Grid"
+			],
+			[
+				"lore",
+				"Snippet: HTML - Lorem Ipsum"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"table",
+				"Snippet: <table>"
+			],
+			[
+				"lint",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML5"
+			],
+			[
+				"pricing",
+				"Snippet: ZURB Foundation 5 Pricing Table"
+			],
+			[
+				"ducme",
+				"Snippet: document.ready - $(function()"
+			],
+			[
+				"jquer",
+				"Snippet: HTML - Include jQuery"
+			],
+			[
+				"functio",
+				"Snippet: Function"
+			],
+			[
+				"function",
+				"Snippet: Function"
+			],
+			[
+				"button",
+				"Snippet: ZURB Foundation 5 Buttons"
+			],
+			[
+				"f bread",
+				"Snippet: ZURB Foundation 5 Breadcrumbs"
+			],
+			[
+				"f grid",
+				"Snippet: ZURB Foundation Full Grid"
+			],
+			[
+				"grid",
+				"Snippet: ZURB Foundation Full Grid"
+			],
+			[
+				"termin",
+				"Open in terminal"
+			],
+			[
+				"term",
+				"Open in terminal"
+			],
+			[
+				"bo",
+				"Bookmarks: Toggle"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"book",
+				"Bookmarks: Toggle"
+			],
+			[
+				"html e",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"html enti",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"&",
+				"Snippet: &"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"html5sh",
+				"Snippet: HTML - HTML5 shiv"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"sublimall",
+				"Sublimall: Upload"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"dash ",
+				"DashDoc: invoke Dash with selected word"
+			],
+			[
+				"proces",
+				"Set Syntax: Processing"
+			],
+			[
+				"jquery",
+				"Snippet: jQuery AJAX call"
+			],
+			[
+				"read",
+				"Snippet: jQuery ready function"
+			],
+			[
+				"ready",
+				"Snippet: jQuery ready function"
+			],
+			[
+				"ardui",
+				"Set Syntax: Arduino"
+			],
+			[
+				"arduino",
+				"Set Syntax: Arduino"
+			],
+			[
+				"processing",
+				"Set Syntax: Processing"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"html ",
+				"Snippet: html"
+			],
+			[
+				"proce",
+				"Set Syntax: Processing"
+			],
+			[
+				"pro",
+				"Set Syntax: Processing"
+			],
+			[
+				"ardu",
+				"Snippet: Arduino delay()"
+			],
+			[
+				"arduin",
+				"Set Syntax: Arduino"
+			],
+			[
+				"ard",
+				"Set Syntax: Arduino"
+			],
+			[
+				"ar",
+				"Set Syntax: Arduino"
+			],
+			[
+				"ardi",
+				"Set Syntax: Arduino"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"set ar",
+				"Set Syntax: Arduino"
+			],
+			[
+				"set coff",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 610.0
+	},
+	"console":
+	{
+		"height": 670.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/dotgridline/Documents/_Work_/_site/crimScreen/_oldsite/css/styles.css",
+		"/Users/dotgridline/Documents/_Work_/_site/crimScreen/site/app/scss/_settings.scss",
+		"/Users/dotgridline/Documents/_Work_/_site/crimScreen/_oldsite/index.php",
+		"/Users/dotgridline/Documents/_Work_/_site/crimScreen/site/app/index.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/crimScreen/site/app/scss/_appstyles.scss",
+		"/Users/dotgridline/Documents/_Work_/_site/crimScreen/site/app/main-navigation.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/crimScreen/_oldsite/inc/header.php",
+		"/Users/dotgridline/Documents/_Work_/_site/crimScreen/site/app/footer.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/crimScreen/site/app/head.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/crimScreen/site/app/head.html",
+		"/Users/dotgridline/Documents/_Work_/_site/crimScreen/site/Gruntfile.js",
+		"/Users/dotgridline/Documents/_Work_/_site/crimScreen/site/app/modals.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/crimScreen/site/app/second-navigation.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/crimScreen/site/app/header.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/scss/_settings.scss",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/index.html",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/scss/app.scss",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/contact.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/dist/contact.html",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app/contact.html",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/Gruntfile.js",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/main-menu.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/modals.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/order-step-1.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/order-step-2.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/index.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/Gruntfile.js",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/footer.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/dist/css/libraries.min.css",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/dist/index.html",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/cart.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/node_modules/grunt-contrib-cssmin/package.json",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/members-profile.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/members-area.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/members-order.html",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/scss/_appstyles.scss",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/members-orders.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/css/owl-carousel.css",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/order-step-3.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/order-step-2.html",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/contact.html",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/order-step-3.html",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/node_modules/grunt/node_modules/exit/test/fixtures/10-stderr.txt",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/test/Events/19-named_entities.json",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/pricing.html",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/css/app.css",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument_parser.js",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/node_modules/grunt-contrib-clean/AUTHORS",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/bower_components/font-awesome/css/font-awesome.css",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/order-step-1-v2.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/pricing.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/bower_components/foundation/scss/foundation/components/_global.scss",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/bower_components/foundation/scss/foundation/components/_buttons.scss",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/request/node_modules/http-signature/.npmignore",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/test/Events/28-cdata_in_html.json",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/node_modules/grunt/node_modules/colors/themes/winston-light.js",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/node_modules/grunt-wiredep/node_modules/wiredep/node_modules/bower-config/node_modules/mout/array/lastIndexOf.js",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/node_modules/node-sass/LICENSE",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/main-menu.html",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/header.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/products.html",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/.ftppass",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/products.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app/bower_components/foundation/scss/foundation/components/_global.scss",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/bower_components/modernizr/test/js/lib/detect-global.js",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs/global.js",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/shelljs/global.js",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app/bower_components/jquery/src/exports/global.js",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/bower_components/jquery/src/exports/global.js",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/node_modules/node-sass/node_modules/shelljs/global.js",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/node_modules/node-sass/node_modules/shelljs/global.js",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/node_modules/grunt/node_modules/glob/glob.js",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/products.jade.html",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/secondary-menu.html",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/scripts.html",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/scripts.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/secondary-menu.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/modals.html",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app/index.html",
+		"/Users/dotgridline/Library/Application Support/Sublime Text 3/Packages/Gutter Color/GutterColor.sublime-settings",
+		"/Users/dotgridline/Library/Application Support/Sublime Text 3/Packages/User/GutterColor.sublime-settings",
+		"/Users/dotgridline/Library/Application Support/Sublime Text 3/Packages/Grunt/SublimeGrunt.sublime-settings",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/test.html",
+		"/Users/dotgridline/Documents/_Work_/_site/fctenant/site/app/test.jade",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app/scss/_appstyles.scss",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app/members-area.html",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/.gitignore",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/.jshintrc",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app/template.html",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app/court-list.html",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app/privacy-policy.html",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app/county-detail.html",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app/order.html",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app/scss/_settings.scss",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/README.md",
+		"/Users/dotgridline/Documents/_Work_/_site/crimview/site-test/node_modules/grunt/node_modules/colors/colors.js",
+		"/Users/dotgridline/Documents/_Work_/_site/crimview/site/completeOrder.php",
+		"/Users/dotgridline/Documents/_Work_/_site/crimview/site/contact.php",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app/order-myChoice.html",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app/county-detail-v2.html",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app/order-v3.html",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app/order-v2.html",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app/county-court-list.html",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app/css/app.css",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app/scss/app.scss",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app/css/owl-carousel.css",
+		"/Users/dotgridline/Documents/_Work_/_site/crimview/site/css/owl_carousel.css",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app/bower_components/foundation/scss/foundation/components/_grid.scss",
+		"/Users/dotgridline/Documents/_Work_/_site/crimview/site-test/node_modules/node-sass/node_modules/mocha/lib/reporters/html.js",
+		"/Users/dotgridline/Documents/_Work_/_site/crimview/site-test/node_modules/grunt/node_modules/hooker/test/hooker_test.js",
+		"/Users/dotgridline/Documents/_Work_/_site/crimview/site/inc/head.php",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app/js/app.js",
+		"/Users/dotgridline/Documents/_Work_/_site/crimview/site-test/app/scss/_settings.scss",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/node_modules/grunt-ftpush/node_modules/jsftp/.idea/codeStyleSettings.xml",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/node_modules/grunt-ftpush/node_modules/jsftp/.idea/scopes/scope_settings.xml",
+		"/Users/dotgridline/Documents/_Work_/_site/crimview/site-test/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/get-stdin/package.json",
+		"/Users/dotgridline/Documents/_Work_/_site/crimview/site-test/node_modules/grunt/node_modules/underscore.string/test/strings_standalone.js",
+		"/Users/dotgridline/Documents/_Work_/_site/crimview/site-test/app/bower_components/modernizr/test/js/setup.js",
+		"/Users/dotgridline/Documents/_Work_/_site/crimview/site-test/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-svgo/node_modules/svgo/node_modules/sax/test/stray-ending.js",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/dist/county-detail.html",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/dist/county-detail-v6.html",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/dist/county-detail-v5.html",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/dist/county-detail-v4.html",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/dist/county-detail-v1.html",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/dist/county-detail-v2.html",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/dist/county-detail-v3.html",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app/county-detail-v5.html",
+		"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app/county-detail-v4.html"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app/privacy-policy.html",
+			"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site/app",
+			"/Users/dotgridline/Documents/_Work_/_site/countyDocs/site",
+			"/Users/dotgridline/Documents/_Work_/_site/criminal/site",
+			"/Users/dotgridline/Documents/_Work_/_site/crimview/site",
+			"",
+			"open file",
+			"account-reminder.html",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"li>",
+			"<",
+			".featuresList",
+			"none",
+			"form",
+			"e7e7e7",
+			"r> ",
+			"IntegraScan",
+			"primary",
+			"form",
+			"button",
+			"// ",
+			"color",
+			"btn_gree",
+			"color",
+			"button",
+			"$include-html-classes;",
+			"class",
+			"\" ",
+			"\")",
+			"<option",
+			"h1",
+			"border-radius",
+			"index",
+			"normal",
+			"index",
+			"footer",
+			"| ",
+			"span",
+			"footer",
+			".",
+			"/",
+			"copy",
+			"owl",
+			"cssmin",
+			"email",
+			"\" ",
+			"</",
+			"small",
+			".small",
+			"blue",
+			"dark-",
+			"color-dark-blue",
+			".expand ",
+			"i.fa.fa-file-pdf-o\n              | Download PDF",
+			"td 07/24/1984",
+			"table",
+			"County Docs",
+			"div.small-8.columns.left",
+			"div.small-8.columns",
+			".left",
+			"left",
+			".left ",
+			"div.small-8.columns.left",
+			"b6",
+			"b6b6b6",
+			"f6",
+			"e6",
+			"e",
+			"secondary",
+			"tiny",
+			".",
+			"text",
+			"png",
+			"li",
+			"i",
+			"@include parameter-title;",
+			"parameter",
+			"input",
+			"Thomas",
+			"<!--",
+			"div.small-12.columns",
+			".container",
+			"small-8",
+			"1px",
+			"order",
+			"                                    ",
+			"                                   ",
+			"                                  ",
+			"                                    ",
+			"                                   ",
+			"                                  ",
+			"div.small-2.columns",
+			"h2",
+			"\" ",
+			"div.",
+			"\" ",
+			",",
+			"<li",
+			" ",
+			"<",
+			"\" ",
+			"\"",
+			" ",
+			"<o",
+			"\" ",
+			" ",
+			" a",
+			" ",
+			"<",
+			" ",
+			"<",
+			" ",
+			"<div",
+			" ",
+			"<option",
+			"input",
+			"<label>",
+			"input",
+			"<input",
+			"\">",
+			"</",
+			" class=\"",
+			"order-step",
+			"cta-button",
+			".",
+			"transparent",
+			"/",
+			" ",
+			"/",
+			"div>",
+			">",
+			" ",
+			"<",
+			" class=\"",
+			"light",
+			"color-light-blue",
+			".container"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"countydocs",
+			"h4",
+			"name=\"",
+			"heading-highlight",
+			"<ul class=\"breadcrumbs right\">",
+			"<a href=\"index.html\"><img class=\"header-logo_index\" src=\"images/logo-countyDocs.png\" alt=\"\"></a>",
+			"list_3col",
+			"list_clean",
+			"usa-map",
+			"<label for=\"national-wants\">National Wants and Warrants Check</label>\n          <p>Searches for previous and current warrants.</p>",
+			"margin-top:5px; text-align:center; font-size:18px;line-height:24px; line-height:auto; color:#000000;",
+			"http://www.startup.sx/files/email_images/",
+			"font-weight: 600",
+			"font-weight: 300",
+			"<li><a href=\"index.html#work\">Other Works</a></li>",
+			"<li><a href=\"index.html#works\">Other Works</a></li>",
+			"<li><a href=\"index.html#contact\">Contact</a></li>",
+			"<li><a href=\"index.html#about\">About</a></li>",
+			"<li><a href=\"index.html\">Home</a></li>",
+			"In-browser Design",
+			"\"imgs",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 313.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 134.0
+	},
+	"project": "crim-screen.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"appst",
+				"app/scss/_appstyles.scss"
+			],
+			[
+				"global",
+				"site/app/bower_components/foundation/scss/foundation/components/_global.scss"
+			],
+			[
+				"sett",
+				"site/app/scss/_settings.scss"
+			],
+			[
+				"countyscsssettings",
+				"countyDocs/site/app/scss/_settings.scss"
+			],
+			[
+				"countyglobal.scss",
+				"countyDocs/site/app/bower_components/foundation/scss/foundation/components/_global.scss"
+			],
+			[
+				"setting",
+				"site/app/scss/_settings.scss"
+			],
+			[
+				"app.js",
+				"site/app/js/app.js"
+			],
+			[
+				"repor",
+				"report-ssn.php"
+			],
+			[
+				"report",
+				"report-example.php"
+			],
+			[
+				"style",
+				"css/styles.css"
+			],
+			[
+				"header",
+				"inc/header.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"searc",
+				"search-state.php"
+			],
+			[
+				"search",
+				"search-ssn.php"
+			],
+			[
+				"prod",
+				"products.php"
+			],
+			[
+				"heade",
+				"inc/header.php"
+			],
+			[
+				"compl",
+				"completeOrder.php"
+			],
+			[
+				"sty",
+				"css/styles.css"
+			],
+			[
+				"main",
+				"app/_scss/main.scss"
+			],
+			[
+				"indx",
+				"app/index.html"
+			],
+			[
+				"oscar",
+				"data/oscar.csv"
+			],
+			[
+				"skele",
+				"stylesheets/skeleton.css"
+			],
+			[
+				"alpa",
+				"alpaca-pillows.html"
+			],
+			[
+				"modal",
+				"stylesheets/modal.css"
+			],
+			[
+				"layout",
+				"stylesheets/layout.css"
+			],
+			[
+				"lay",
+				"stylesheets/layout.css"
+			],
+			[
+				"mdo",
+				"stylesheets/modal.css"
+			],
+			[
+				"layou",
+				"stylesheets/layout.css"
+			],
+			[
+				"alp",
+				"alpaca-pillows.html"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"amor",
+				"amory.html"
+			],
+			[
+				"mucha",
+				"mucha.html"
+			],
+			[
+				"book",
+				"book-object.html"
+			],
+			[
+				"glowing",
+				"glowing-patterns.html"
+			],
+			[
+				"chez",
+				"chez-manu.html"
+			],
+			[
+				"g",
+				"glowing-patterns.html"
+			],
+			[
+				"rom",
+				"rom-poster.html"
+			],
+			[
+				"build",
+				"buildbreakrestart.html"
+			],
+			[
+				"wea",
+				"weaving-diagram.html"
+			],
+			[
+				"al",
+				"alpaca-pillows.html"
+			],
+			[
+				"ap",
+				"alpaca-pillows.html"
+			],
+			[
+				"flapp",
+				"flapper-dress.html"
+			],
+			[
+				"glow",
+				"glowing-patterns.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 196.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

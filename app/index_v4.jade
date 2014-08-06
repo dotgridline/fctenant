@@ -1,0 +1,58 @@
+doctype html
+html(class="no-js", lang="en")
+  include header.jade
+
+  //- body.index-test
+  body.index
+    div.page-wrap
+      // Menu
+      include main-menu
+      // Content
+      div.row.container.content
+        // Background check-list
+        div.row
+          h1(style="font-size:2.2rem", class="text-center") Tenant Background Check
+        div.row
+          // List
+          div.small-12.columns
+            ul.list-check.small-4.columns
+              li Instant Results!
+              li Safe and secure ordering
+              li 24/7 access
+              li FREE Instant Identity Verification
+            ul.list-check.small-4.columns
+              li Instant Results!        
+              li Safe and secure ordering
+              li 24/7 access
+              li FREE Instant Identity Verification 
+            ul.list-check.small-4.columns
+              li Pay As You Go -NO setup, membership,<br>monthly or annual fees.
+              li Safe and secure ordering
+              li FREE Instant Identity Verification
+            // Price        
+        div.row
+          div.small-12.columns
+            img(src="images/bg-index_v2.jpg", class="index-photo")
+            .report-example_v3
+              img(src="images/report-example.jpg")  
+            div.small-4.columns.price-highlight_v4
+              div.small-8.small-centered.columns.end
+                div.small-9.small-centered.columns
+                  div Starting at
+                  div.price
+                    div.left.dollar-sign $
+                    div.left.big-number 9
+                    div.left.small-numbers .95
+                a.button.round.green.expand Get Started
+              
+              blockquote.sales-pitch_v4.text-center Easy as 1 - 2 - 3 with First-Choice’s easy to use online order system.
+
+      // Footer
+      include secondary-menu
+      // Modals
+      include modals
+      
+    
+
+    // Footer
+    include footer

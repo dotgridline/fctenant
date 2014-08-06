@@ -1,0 +1,45 @@
+doctype html
+html(class="no-js", lang="en")
+  include header.jade
+
+  body.index
+    include main-menu
+
+    div.row.container
+      // Report example and Man background
+      div.small-5.columns
+        .report-example
+          img(src="images/report-example.jpg")
+      // Background check-list
+      div.small-7.columns
+        h1. Tenant Background Check
+        div.row
+          // List
+          div.small-8.columns
+            ul.list-check
+              li Instant Results!
+              li Safe and secure ordering
+              li 24/7 access
+              li FREE Instant Identity Verification
+              li Pay As You Go -NO setup, membership,
+              li monthly or annual fees.
+              li Instant Results!
+              li Safe and secure ordering
+              li 24/7 access
+              li FREE Instant Identity Verification
+          // Price
+          div.small-4.columns.price-highlight
+            div.small-10.columns.small-centered
+              div Starting at
+              div.price
+                div.left.dollar-sign $
+                div.left.big-number 9
+                div.left.small-numbers .95
+            a.button.round.green.expand Get Started
+
+        div.row
+          small-10.columns.small-centered.text-center
+            blockquote.sales-pitch Screening your potential Tenants is as easy as 1 - 2 - 3 with<br><span class="text-bold">First-Choice’s easy to use online order system.</span>
+
+
+      //- include footer
