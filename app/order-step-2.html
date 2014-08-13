@@ -17,8 +17,8 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild-->
   </head>
-  <body class="products">
-    <div class="page-wrap">
+  <body>
+    <div class="page-wrap products">
       <!-- Menu-->
       <div class="row container">
         <div class="small-12 columns main-menu">
@@ -35,39 +35,60 @@
               </li>
             </ul>
           </div>
-          <div class="small-2 columns main-menu-block">
+          <div style="position:relative;" class="small-2 columns main-menu-block">
             <ul class="small-block-grid-2">
               <li><a href="cart.html"><i class="fa fa-shopping-cart fa-lg"></i>Cart  </a></li>
               <li><a href="#" data-reveal-id="loginModal"><i class="fa fa-user fa-lg"></i>Login</a></li>
             </ul>
+            <div style="position: absolute; top:-20px; left:15px; font-size:.8rem; color: #51749a;"><a href="callto:8888781595">Call Us: (888) 878-1595 </a></div>
           </div>
         </div>
       </div>
       <!-- Content-->
       <div class="row container content">
-        <!--Order Steps -->
-        <div class="row container">
-          <ul class="small-block-grid-3 panel-step">
-            <li class="panel-step-1">
-              <div class="number-highlight small-4 columns">1</div>
-              <div class="small-8 columns number-description">
-                <div class="panel-highlight">Tenant</div>Verification
+        <!--Order Steps-->
+        <ul class="small-block-grid-3 panel-step">
+          <li class="panel-step-1">
+            <div class="number-highlight small-4 columns">1</div>
+            <div class="small-8 columns number-description">
+              <div class="panel-highlight">Tenant</div>Verification
+            </div>
+          </li>
+          <li class="panel-step-2">
+            <div class="number-highlight small-4 columns">2</div>
+            <div class="small-8 columns number-description">
+              <div class="panel-highlight">Select Your</div>Package
+            </div>
+            <div class="step-indicator"></div>
+          </li>
+          <li class="panel-step-3">
+            <div class="number-highlight small-4 columns">3</div>
+            <div class="small-8 columns number-description">
+              <div class="panel-highlight">Download</div>Reports
+            </div>
+          </li>
+        </ul>
+        <!-- General Information-->
+        <div class="row">
+          <div class="small-6 columns small-centered">
+            <div class="panel radius order-general-info">
+              <div class="row">
+                <!-- Search Parameter-->
+                <div class="small-8 columns">
+                  <h4>Search Parameters</h4>
+                  <ul class="small-block-grid-2 order-list-parameters">
+                    <li><span class="parameter-title">First Name</span><br>Thomas</li>
+                    <li><span class="parameter-title">Last Name</span><br>Green</li>
+                  </ul>
+                </div>
+                <!-- Order Total-->
+                <div class="small-4 columns separator-left text-center">
+                  <h4>Order Total</h4>
+                  <p style="color:red;font-size: 1.6rem">$69.00</p>
+                </div>
               </div>
-            </li>
-            <li class="panel-step-2">
-              <div class="number-highlight small-4 columns">2</div>
-              <div class="small-8 columns number-description">
-                <div class="panel-highlight">Select Your</div>Package
-              </div>
-              <div class="step-indicator"></div>
-            </li>
-            <li class="panel-step-3">
-              <div class="number-highlight small-4 columns">3</div>
-              <div class="small-8 columns number-description">
-                <div class="panel-highlight">Download</div>Reports
-              </div>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
         <!--Package Creator-->
         <div class="row">
@@ -77,69 +98,195 @@
               <li class="title">Base Package</li>
               <li class="bullet-item">
                 <input type="checkbox" name="basic-report" id="basic-report" checked>
-                <label for="basic-report">Basic Report</label>
+                <label for="basic-report">Basic Report</label><span data-tooltip title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." class="has-tip right"><i class="fa fa-question-circle fa-lg tooltip-icon"></i></span>
               </li>
               <li class="bullet-item">
                 <input type="checkbox" name="sex-offenders-report" id="sex-offenders-report" checked>
-                <label for="sex-offenders-report">Sex Offenders</label>
+                <label for="sex-offenders-report">Sex Offenders</label><span data-tooltip title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." class="has-tip right"><i class="fa fa-question-circle fa-lg tooltip-icon"></i></span>
               </li>
               <li class="bullet-item">
                 <input type="checkbox" name="ofac-report" id="ofac-report" checked>
-                <label for="ofac-report">OFAC Report</label>
+                <label for="ofac-report">OFAC Report</label><span data-tooltip title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." class="has-tip right"><i class="fa fa-question-circle fa-lg tooltip-icon"></i></span>
               </li>
               <li class="bullet-item">
                 <input type="checkbox" name="eviction-report" id="eviction-report" checked>
-                <label for="eviction-report">Eviction Report</label>
+                <label for="eviction-report">Eviction Report</label><span data-tooltip title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." class="has-tip right"><i class="fa fa-question-circle fa-lg tooltip-icon"></i></span>
+              </li>
+            </ul>
+          </div>
+          <!-- County Names-->
+          <div class="small-5 columns">
+            <ul class="pricing-table">
+              <li class="title">Counties To Be Searched</li>
+              <li class="bullet-item">
+                <div class="row">
+                  <!--Name-->
+                  <div class="small-5 columns">
+                    <input type="checkbox" name="basic-report" id="example-1">
+                    <label for="example-1">Collingsworth</label>
+                  </div>
+                  <!--Fees Info-->
+                  <div class="small-7 columns">
+                    <ul class="inline-list list-fees">
+                      <li><small>County Fee</small><br>$30.00</li>
+                      <li><small>Convenience Fee</small><br>$9.99</li>
+                      <li><span data-tooltip title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." class="has-tip right"><i class="fa fa-question-circle fa-lg tooltip-icon"></i></span></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="bullet-item">
+                <div class="row">
+                  <!--Name-->
+                  <div class="small-5 columns">
+                    <input type="checkbox" name="basic-report" id="example-2">
+                    <label for="example-2">Collingsworth</label>
+                  </div>
+                  <!--Fees Info-->
+                  <div class="small-7 columns">
+                    <ul class="inline-list list-fees">
+                      <li><small>County Fee</small><br>$30.00</li>
+                      <li><small>Convenience Fee</small><br>$9.99</li>
+                      <li><span data-tooltip title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." class="has-tip right"><i class="fa fa-question-circle fa-lg tooltip-icon"></i></span></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="bullet-item">
+                <div class="row">
+                  <!--Name-->
+                  <div class="small-5 columns">
+                    <input type="checkbox" name="basic-report" id="example-3">
+                    <label for="example-3">Collingsworth</label>
+                  </div>
+                  <!--Fees Info-->
+                  <div class="small-7 columns">
+                    <ul class="inline-list list-fees">
+                      <li><small>County Fee</small><br>$30.00</li>
+                      <li><small>Convenience Fee</small><br>$9.99</li>
+                      <li><span data-tooltip title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." class="has-tip right"><i class="fa fa-question-circle fa-lg tooltip-icon"></i></span></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="bullet-item">
+                <div class="row">
+                  <!--Name-->
+                  <div class="small-5 columns">
+                    <input type="checkbox" name="basic-report" id="example-4">
+                    <label for="example-4">Collingsworth</label>
+                  </div>
+                  <!--Fees Info-->
+                  <div class="small-7 columns">
+                    <ul class="inline-list list-fees">
+                      <li><small>County Fee</small><br>$30.00</li>
+                      <li><small>Convenience Fee</small><br>$9.99</li>
+                      <li><span data-tooltip title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." class="has-tip right"><i class="fa fa-question-circle fa-lg tooltip-icon"></i></span></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="bullet-item">
+                <div class="row">
+                  <!--Name-->
+                  <div class="small-5 columns">
+                    <input type="checkbox" name="basic-report" id="example-5">
+                    <label for="example-5">Collingsworth</label>
+                  </div>
+                  <!--Fees Info-->
+                  <div class="small-7 columns">
+                    <ul class="inline-list list-fees">
+                      <li><small>County Fee</small><br>$30.00</li>
+                      <li><small>Convenience Fee</small><br>$9.99</li>
+                      <li><span data-tooltip title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." class="has-tip right"><i class="fa fa-question-circle fa-lg tooltip-icon"></i></span></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="bullet-item">
+                <div class="row">
+                  <!--Name-->
+                  <div class="small-5 columns">
+                    <input type="checkbox" name="basic-report" id="example-6">
+                    <label for="example-6">Collingsworth</label>
+                  </div>
+                  <!--Fees Info-->
+                  <div class="small-7 columns">
+                    <ul class="inline-list list-fees">
+                      <li><small>County Fee</small><br>$30.00</li>
+                      <li><small>Convenience Fee</small><br>$9.99</li>
+                      <li><span data-tooltip title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." class="has-tip right"><i class="fa fa-question-circle fa-lg tooltip-icon"></i></span></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="bullet-item">
+                <div class="row">
+                  <!--Name-->
+                  <div class="small-5 columns">
+                    <input type="checkbox" name="basic-report" id="example-7">
+                    <label for="example-7">Collingsworth</label>
+                  </div>
+                  <!--Fees Info-->
+                  <div class="small-7 columns">
+                    <ul class="inline-list list-fees">
+                      <li><small>County Fee</small><br>$30.00</li>
+                      <li><small>Convenience Fee</small><br>$9.99</li>
+                      <li><span data-tooltip title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." class="has-tip right"><i class="fa fa-question-circle fa-lg tooltip-icon"></i></span></li>
+                    </ul>
+                  </div>
+                </div>
               </li>
             </ul>
           </div>
           <!--Addons-->
-          <div class="small-8 small-offset-1 columns">
-            <ul class="pricing-table small-block-grid-2">
-              <li class="alignment-hack">      </li>
-              <li style="width:100%" class="title">Addons</li>
+          <div class="small-4 columns">
+            <ul class="pricing-table">
+              <li class="title">Addons</li>
               <li class="bullet-item">
                 <input type="checkbox" name="credit-report" id="credit-report">
-                <label for="credit-report">Credit Report</label>
+                <label for="credit-report">Credit Report</label><span data-tooltip title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." class="has-tip right"><i class="fa fa-question-circle fa-lg tooltip-icon"></i></span>
               </li>
               <li class="bullet-item">
                 <input type="checkbox" name="county-criminal" id="county-criminal">
-                <label for="county-criminal">County Criminal</label>
+                <label for="county-criminal">County Criminal</label><span data-tooltip title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." class="has-tip right"><i class="fa fa-question-circle fa-lg tooltip-icon"></i></span>
               </li>
               <li class="bullet-item">
                 <input type="checkbox" name="judgment-search" id="judgment-search">
-                <label for="judgment-search">Judgment Search</label>
+                <label for="judgment-search">Judgment Search</label><span data-tooltip title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." class="has-tip right"><i class="fa fa-question-circle fa-lg tooltip-icon"></i></span>
               </li>
               <li class="bullet-item">
                 <input type="checkbox" name="assured-tenant" id="assured-tenant">
-                <label for="assured-tenant">Assured Tenant</label>
+                <label for="assured-tenant">Assured Tenant</label><span data-tooltip title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." class="has-tip right"><i class="fa fa-question-circle fa-lg tooltip-icon"></i></span>
               </li>
               <li class="bullet-item">
                 <input type="checkbox" name="court-actions" id="court-actions">
-                <label for="court-actions">Court Actions         </label>
+                <label for="court-actions">Court Actions</label><span data-tooltip title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." class="has-tip right"><i class="fa fa-question-circle fa-lg tooltip-icon"></i></span>
               </li>
               <li class="bullet-item">
                 <input type="checkbox" name="unlawful-detainers" id="unlawful-detainers">
-                <label for="unlawful-detainers">Unlawful Detainers</label>
+                <label for="unlawful-detainers">Unlawful Detainers</label><span data-tooltip title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." class="has-tip right"><i class="fa fa-question-circle fa-lg tooltip-icon"></i></span>
               </li>
               <li class="bullet-item">
                 <input type="checkbox" name="monetary-judgments" id="monetary-judgments">
-                <label for="monetary-judgments">Monetary Judgments</label>
+                <label for="monetary-judgments">Monetary Judgments</label><span data-tooltip title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." class="has-tip right"><i class="fa fa-question-circle fa-lg tooltip-icon"></i></span>
               </li>
               <li class="bullet-item">
                 <input type="checkbox" name="court-ordered-possession" id="court-ordered-possession">
-                <label for="court-ordered-possession">Court Ordered Possession</label>
+                <label for="court-ordered-possession">Court Ordered Possession</label><span data-tooltip title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." class="has-tip right"><i class="fa fa-question-circle fa-lg tooltip-icon"></i></span>
               </li>
               <li class="bullet-item">
                 <input type="checkbox" name="property-damage-claims" id="property-damage-claims">
-                <label for="property-damage-claims">Property Damage Claims</label>
+                <label for="property-damage-claims">Property Damage Claims</label><span data-tooltip title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." class="has-tip right"><i class="fa fa-question-circle fa-lg tooltip-icon"></i></span>
               </li>
             </ul>
           </div>
         </div>
         <!-- Next Button-->
         <div class="row">
-          <input type="submit" value="Next" class="button green radius small-2 small-offset-10 columns">
+          <div class="small-2 columns small-offset-10">
+            <input type="submit" value="Next" class="button green radius expand">
+          </div>
         </div>
       </div>
       <!-- Footer-->

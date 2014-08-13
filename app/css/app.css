@@ -3831,7 +3831,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
   line-height: 1.4; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
-    font-size: 60%;
+    font-size: 70%;
     color: #6f6f6f;
     line-height: 0; }
 
@@ -3877,7 +3877,7 @@ strong, b {
   line-height: inherit; }
 
 small {
-  font-size: 60%;
+  font-size: 70%;
   line-height: inherit; }
 
 code {
@@ -5206,6 +5206,9 @@ a.no-margin {
 .panel {
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1); }
 
+.v-aligned {
+  vertical-align: middle; }
+
 .container {
   width: 1024px;
   margin: 0 auto;
@@ -5240,6 +5243,10 @@ a:hover {
 
 .no-margin {
   margin: 0 auto !important; }
+
+.parameter-title {
+  font-weight: 700;
+  margin-right: 5px; }
 
 /* -- Menus --*/
 .main-menu {
@@ -5553,7 +5560,7 @@ input[type="radio"], input[type="checkbox"] {
   Products
 ------------*/
 .products {
-  background: url(../images/reports-pile-1.jpg) no-repeat 5% 110%; }
+  background: url(../images/reports-pile-1.jpg) no-repeat 10% 60%; }
 
 /*-------
   Order
@@ -5800,7 +5807,37 @@ input[type="radio"], input[type="checkbox"] {
   margin: 0; }
 
 .pricing-table .title {
-  padding: 20px 0 30px 0; }
+  padding: 20px 0 20px 0; }
 
 .pricing-table .alignment-hack {
   display: none; }
+
+.tooltip-icon {
+  color: #555;
+  padding-top: 7px; }
+  .tooltip-icon:hover {
+    color: #333; }
+
+.list-fees {
+  font-size: 0.85rem;
+  background-color: #fff;
+  padding-top: 5px;
+  margin-bottom: 0;
+  color: #555; }
+  .list-fees li {
+    background-color: #fff;
+    font-size: 0.85rem; }
+  .list-fees small {
+    font-size: 0.65rem; }
+  .list-fees i {
+    padding-top: 2px !important;
+    font-size: 1.2rem; }
+
+.separator-left {
+  border-left: 1px dotted #b0b0b0;
+  padding-left: 15px; }
+
+.order-general-info {
+  margin: 10px auto 30 auto; }
+  .order-general-info .order-list-parameters li {
+    padding-bottom: 0 !important; }

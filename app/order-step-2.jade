@@ -1,32 +1,53 @@
 doctype html
 html(class="no-js", lang="en")
   include header
-  
-  body.products
-    div.page-wrap
+
+  body
+    div.page-wrap.products
       // Menu
       include main-menu
       // Content
       div.row.container.content
-        //Order Steps 
-        div.row.container
-            ul.small-block-grid-3.panel-step
-              li.panel-step-1 
-                div.number-highlight.small-4.columns 1
-                div.small-8.columns.number-description
-                  div.panel-highlight Tenant
-                  | Verification
-              li.panel-step-2
-                div.number-highlight.small-4.columns 2
-                div.small-8.columns.number-description
-                  div.panel-highlight Select Your
-                  | Package
-                div.step-indicator
-              li.panel-step-3
-                div.number-highlight.small-4.columns 3
-                div.small-8.columns.number-description
-                  div.panel-highlight Download
-                  | Reports
+        //Order Steps
+        ul.small-block-grid-3.panel-step
+          li.panel-step-1
+            div.number-highlight.small-4.columns 1
+            div.small-8.columns.number-description
+              div.panel-highlight Tenant
+              | Verification
+          li.panel-step-2
+            div.number-highlight.small-4.columns 2
+            div.small-8.columns.number-description
+              div.panel-highlight Select Your
+              | Package
+            div.step-indicator
+          li.panel-step-3
+            div.number-highlight.small-4.columns 3
+            div.small-8.columns.number-description
+              div.panel-highlight Download
+              | Reports
+
+        // General Information
+        .row
+          .small-6.columns.small-centered
+            .panel.radius.order-general-info
+              .row
+                // Search Parameter
+                .small-8.columns
+                  h4 Search Parameters
+                  ul.small-block-grid-2.order-list-parameters
+                    li
+                      span.parameter-title First Name
+                      br
+                      | Thomas
+                    li
+                      span.parameter-title Last Name
+                      br
+                      | Green
+                // Order Total
+                .small-4.columns.separator-left.text-center
+                  h4 Order Total
+                  p(style="color:red;font-size: 1.6rem") $69.00
 
         //Package Creator
         div.row
@@ -37,52 +58,203 @@ html(class="no-js", lang="en")
               li.bullet-item
                 input(type="checkbox", name="basic-report", id="basic-report", checked)
                 label(for="basic-report") Basic Report
+                span(data-tooltip, class="has-tip right", title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."): i.fa.fa-question-circle.fa-lg.tooltip-icon
               li.bullet-item
                 input(type="checkbox", name="sex-offenders-report", id="sex-offenders-report", checked)
                 label(for="sex-offenders-report") Sex Offenders
+                span(data-tooltip, class="has-tip right", title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."): i.fa.fa-question-circle.fa-lg.tooltip-icon
               li.bullet-item
                 input(type="checkbox", name="ofac-report", id="ofac-report", checked)
                 label(for="ofac-report") OFAC Report
+                span(data-tooltip, class="has-tip right", title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."): i.fa.fa-question-circle.fa-lg.tooltip-icon
               li.bullet-item
                 input(type="checkbox", name="eviction-report", id="eviction-report", checked)
                 label(for="eviction-report") Eviction Report
+                span(data-tooltip, class="has-tip right", title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."): i.fa.fa-question-circle.fa-lg.tooltip-icon
+
+          // County Names
+          div.small-5.columns
+            ul.pricing-table
+              li.title Counties To Be Searched
+              li.bullet-item
+                .row
+                  //Name
+                  .small-5.columns
+                    input(type="checkbox", name="basic-report", id="example-1")
+                    label(for="example-1") Collingsworth
+                  //Fees Info
+                  .small-7.columns
+                    ul.inline-list.list-fees
+                      li
+                        small County Fee
+                        br
+                        | $30.00
+                      li
+                        small Convenience Fee
+                        br
+                        | $9.99
+                      li
+                       span(data-tooltip, class="has-tip right", title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."): i.fa.fa-question-circle.fa-lg.tooltip-icon
+              li.bullet-item
+                .row
+                  //Name
+                  .small-5.columns
+                    input(type="checkbox", name="basic-report", id="example-2")
+                    label(for="example-2") Collingsworth
+                  //Fees Info
+                  .small-7.columns
+                    ul.inline-list.list-fees
+                      li
+                        small County Fee
+                        br
+                        | $30.00
+                      li
+                        small Convenience Fee
+                        br
+                        | $9.99
+                      li
+                       span(data-tooltip, class="has-tip right", title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."): i.fa.fa-question-circle.fa-lg.tooltip-icon
+              li.bullet-item
+                .row
+                  //Name
+                  .small-5.columns
+                    input(type="checkbox", name="basic-report", id="example-3")
+                    label(for="example-3") Collingsworth
+                  //Fees Info
+                  .small-7.columns
+                    ul.inline-list.list-fees
+                      li
+                        small County Fee
+                        br
+                        | $30.00
+                      li
+                        small Convenience Fee
+                        br
+                        | $9.99
+                      li
+                       span(data-tooltip, class="has-tip right", title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."): i.fa.fa-question-circle.fa-lg.tooltip-icon
+              li.bullet-item
+                .row
+                  //Name
+                  .small-5.columns
+                    input(type="checkbox", name="basic-report", id="example-4")
+                    label(for="example-4") Collingsworth
+                  //Fees Info
+                  .small-7.columns
+                    ul.inline-list.list-fees
+                      li
+                        small County Fee
+                        br
+                        | $30.00
+                      li
+                        small Convenience Fee
+                        br
+                        | $9.99
+                      li
+                       span(data-tooltip, class="has-tip right", title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."): i.fa.fa-question-circle.fa-lg.tooltip-icon
+              li.bullet-item
+                .row
+                  //Name
+                  .small-5.columns
+                    input(type="checkbox", name="basic-report", id="example-5")
+                    label(for="example-5") Collingsworth
+                  //Fees Info
+                  .small-7.columns
+                    ul.inline-list.list-fees
+                      li
+                        small County Fee
+                        br
+                        | $30.00
+                      li
+                        small Convenience Fee
+                        br
+                        | $9.99
+                      li
+                       span(data-tooltip, class="has-tip right", title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."): i.fa.fa-question-circle.fa-lg.tooltip-icon
+              li.bullet-item
+                .row
+                  //Name
+                  .small-5.columns
+                    input(type="checkbox", name="basic-report", id="example-6")
+                    label(for="example-6") Collingsworth
+                  //Fees Info
+                  .small-7.columns
+                    ul.inline-list.list-fees
+                      li
+                        small County Fee
+                        br
+                        | $30.00
+                      li
+                        small Convenience Fee
+                        br
+                        | $9.99
+                      li
+                       span(data-tooltip, class="has-tip right", title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."): i.fa.fa-question-circle.fa-lg.tooltip-icon
+              li.bullet-item
+                .row
+                  //Name
+                  .small-5.columns
+                    input(type="checkbox", name="basic-report", id="example-7")
+                    label(for="example-7") Collingsworth
+                  //Fees Info
+                  .small-7.columns
+                    ul.inline-list.list-fees
+                      li
+                        small County Fee
+                        br
+                        | $30.00
+                      li
+                        small Convenience Fee
+                        br
+                        | $9.99
+                      li
+                       span(data-tooltip, class="has-tip right", title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."): i.fa.fa-question-circle.fa-lg.tooltip-icon
 
           //Addons
-          div.small-8.small-offset-1.columns
-            ul.pricing-table.small-block-grid-2 
-              li.alignment-hack       
-              li(class="title",style="width:100%") Addons
+          div.small-4.columns
+            ul.pricing-table
+              li.title Addons
               li.bullet-item
                 input(type="checkbox", name="credit-report", id="credit-report")
                 label(for="credit-report") Credit Report
+                span(data-tooltip, class="has-tip right", title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."): i.fa.fa-question-circle.fa-lg.tooltip-icon
               li.bullet-item
                 input(type="checkbox", name="county-criminal", id="county-criminal")
                 label(for="county-criminal") County Criminal
+                span(data-tooltip, class="has-tip right", title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."): i.fa.fa-question-circle.fa-lg.tooltip-icon
               li.bullet-item
                 input(type="checkbox", name="judgment-search", id="judgment-search")
                 label(for="judgment-search") Judgment Search
+                span(data-tooltip, class="has-tip right", title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."): i.fa.fa-question-circle.fa-lg.tooltip-icon
               li.bullet-item
                 input(type="checkbox", name="assured-tenant", id="assured-tenant")
                 label(for="assured-tenant") Assured Tenant
+                span(data-tooltip, class="has-tip right", title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."): i.fa.fa-question-circle.fa-lg.tooltip-icon
               li.bullet-item
                 input(type="checkbox", name="court-actions", id="court-actions")
-                label(for="court-actions") Court Actions         
+                label(for="court-actions") Court Actions
+                span(data-tooltip, class="has-tip right", title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."): i.fa.fa-question-circle.fa-lg.tooltip-icon
               li.bullet-item
                 input(type="checkbox", name="unlawful-detainers", id="unlawful-detainers")
                 label(for="unlawful-detainers") Unlawful Detainers
+                span(data-tooltip, class="has-tip right", title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."): i.fa.fa-question-circle.fa-lg.tooltip-icon
               li.bullet-item
                 input(type="checkbox", name="monetary-judgments", id="monetary-judgments")
                 label(for="monetary-judgments") Monetary Judgments
+                span(data-tooltip, class="has-tip right", title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."): i.fa.fa-question-circle.fa-lg.tooltip-icon
               li.bullet-item
                 input(type="checkbox", name="court-ordered-possession", id="court-ordered-possession")
                 label(for="court-ordered-possession") Court Ordered Possession
+                span(data-tooltip, class="has-tip right", title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."): i.fa.fa-question-circle.fa-lg.tooltip-icon
               li.bullet-item
                 input(type="checkbox", name="property-damage-claims", id="property-damage-claims")
                 label(for="property-damage-claims") Property Damage Claims
+                span(data-tooltip, class="has-tip right", title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."): i.fa.fa-question-circle.fa-lg.tooltip-icon
 
         // Next Button
         div.row
-          input(type="submit", class="button green radius small-2 small-offset-10 columns", value="Next")
+          div.small-2.columns.small-offset-10
+            input(type="submit", class="button green radius expand", value="Next")
 
       // Footer
       include secondary-menu
@@ -90,5 +262,3 @@ html(class="no-js", lang="en")
       include modals
 
     include footer
-
-

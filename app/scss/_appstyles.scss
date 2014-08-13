@@ -37,6 +37,9 @@ a.no-margin{
   box-shadow: 0 0 2px 1px rgba(0,0,0,0.1)
 }
 
+.v-aligned{
+  vertical-align: middle;
+}
 
   .container{
     width:1024px; 
@@ -83,6 +86,9 @@ a.no-margin{
 
   .no-margin{margin:0 auto !important;}
 
+  .parameter-title{
+    @include parameter-title;
+  }
   /* -- Menus --*/
   .main-menu{
     margin:20px 0 30px 0;
@@ -544,7 +550,7 @@ a.no-margin{
   Products
 ------------*/
 .products{
-  background: url(../images/reports-pile-1.jpg) no-repeat 5% 110%;
+  background: url(../images/reports-pile-1.jpg) no-repeat 10% 60%;
 }
 
 /*-------
@@ -856,9 +862,53 @@ $color-step-3: scale-color($secondary-color, $lightness: -10%);
 }
 
 .pricing-table .title{
-  padding:20px 0 30px 0;
+  padding:20px 0 20px 0;
 }
 
 .pricing-table .alignment-hack{
   display: none;
+}
+
+.tooltip-icon{
+  color:#555;
+  padding-top:7px;
+
+  &:hover{
+    color:#333;
+  }
+}
+
+.list-fees{
+  font-size:0.85rem;
+  background-color:#fff;
+  padding-top:5px;
+  margin-bottom:0;
+  color:#555;
+
+  li{
+    background-color:#fff;
+    font-size:0.85rem;
+  }
+
+  small{
+    font-size:0.65rem;
+  }
+
+  i{
+    padding-top:2px !important;
+    font-size:1.2rem;
+  }
+}
+
+.separator-left{
+  border-left:1px dotted #b0b0b0;
+  padding-left:15px;
+}
+
+.order-general-info{
+  margin:10px auto 30 auto;
+
+  .order-list-parameters li{
+    padding-bottom:0 !important;
+  }
 }
