@@ -24,7 +24,7 @@ module.exports = function(grunt) {
 			}
 		},
 
-		
+
 		jade: {
 			compile: {
 				options: {
@@ -35,8 +35,8 @@ module.exports = function(grunt) {
 				},
 				files: [{
 					expand: true,
-					cwd: '<%= app %>/',
-					src: ['**/*.jade', '!**/header.jade', '!**/footer.jade', '!**/main-menu.jade', '!**/secondary-menu.jade', '!**/modals.jade'],
+					cwd: '<%= app %>/pre-html',
+					src: ['**/*.jade','!includes/*.jade'],
 					ext: '.html',
 					dest: '<%= app %>/'
 				}]
@@ -199,7 +199,7 @@ module.exports = function(grunt) {
 	grunt.registerTask('compile-jade', ['jade']);
 	grunt.registerTask('compile-sass', ['sass']);
 	grunt.registerTask('bower-install', ['wiredep']);
-	
+
 	grunt.registerTask('default', ['compile-jade', 'compile-sass', 'bower-install', 'connect:app', 'watch']);
 	grunt.registerTask('validate-js', ['jshint']);
 	grunt.registerTask('server-dist', ['connect:dist']);
@@ -207,6 +207,6 @@ module.exports = function(grunt) {
 	grunt.registerTask('upload', ['ftpush:build']);
 
 	grunt.registerTask('compile', ['compile-jade', 'compile-sass', 'clean:dist', 'validate-js', 'useminPrepare', 'copy:dist', 'newer:imagemin', 'concat', 'cssmin', 'uglify', 'usemin']);
-	
+
 	grunt.registerTask('publish', ['compile-jade', 'compile-sass', 'clean:dist', 'validate-js', 'useminPrepare', 'copy:dist', 'newer:imagemin', 'concat', 'cssmin', 'uglify', 'usemin', 'upload']);
 };

@@ -1,0 +1,27 @@
+block link
+  -var selected = 'Home'; //default
+  -var menu = { 'Home': 'index.html', 'Coverage': '#', 'Privacy': 'privacy-policy.html',  'Contact': 'contact.html' };
+
+div.row.container
+  div.small-12.columns.main-menu
+    div.small-3.columns
+      a(href="index.html"): img.logo(src="images/logo.png")
+    div.small-5.small-offset-2.columns
+      ul.inline-list.main-menu-items.right
+        each val, key in menu
+          li
+            if selected === key
+              a.selected(href=val, title=key)= key
+            else
+              a(href=val, title=key)= key
+
+    div.small-2.columns.main-menu-block(style="position:relative;")
+      ul.small-block-grid-2
+        li: a(href="cart.html")
+              i.fa.fa-shopping-cart.fa-lg
+              | Cart
+        li: a(href="#", data-reveal-id="loginModal")
+              i.fa.fa-user.fa-lg
+              | Login
+      div(style="position: absolute; top:-20px; left:15px; font-size:.8rem; color: #51749a;")
+        a(href="callto:8888781595") Call Us: (888) 878-1595

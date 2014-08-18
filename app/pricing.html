@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
+  <!-- Head-->
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation project</title>
+    <title>First Choice Tenant</title>
     <!-- build:css css/libraries.min.css-->
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
     <!-- bower:css-->
@@ -16,102 +17,158 @@
     <!-- build:js js/vendor/modernizr.min.js-->
     <script src="bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild-->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]-->
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   </head>
   <body class="products">
-    <div class="row container">
-      <div class="small-12 columns main-menu">
-        <div class="small-3 columns"><a href="index.html"><img src="images/logo.png" class="logo"></a></div>
-        <div class="small-5 small-offset-2 columns">
-          <ul class="inline-list main-menu-items">
-            <li><a href="index.html" title="Home" class="selected">Home</a>
-            </li>
-            <li><a href="pricing_v2.html" title="Pricing">Pricing</a>
-            </li>
-            <li><a href="#" title="Coverage">Coverage</a>
-            </li>
-            <li><a href="contact.html" title="Contact">Contact</a>
-            </li>
-          </ul>
+    <!--Page Wrap-->
+    <div class="page-wrap">
+      <!-- Header-->
+      <div class="row container">
+        <div class="small-12 columns main-menu">
+          <div class="small-3 columns"><a href="index.html"><img src="images/logo.png" class="logo"></a></div>
+          <div class="small-5 small-offset-2 columns">
+            <ul class="inline-list main-menu-items right">
+              <li><a href="index.html" title="Home" class="selected">Home</a>
+              </li>
+              <li><a href="#" title="Coverage">Coverage</a>
+              </li>
+              <li><a href="privacy-policy.html" title="Privacy">Privacy</a>
+              </li>
+              <li><a href="contact.html" title="Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div style="position:relative;" class="small-2 columns main-menu-block">
+            <ul class="small-block-grid-2">
+              <li><a href="cart.html"><i class="fa fa-shopping-cart fa-lg"></i>Cart</a></li>
+              <li><a href="#" data-reveal-id="loginModal"><i class="fa fa-user fa-lg"></i>Login</a></li>
+            </ul>
+            <div style="position: absolute; top:-20px; left:15px; font-size:.8rem; color: #51749a;"><a href="callto:8888781595">Call Us: (888) 878-1595</a></div>
+          </div>
         </div>
-        <div style="position:relative;" class="small-2 columns main-menu-block">
-          <ul class="small-block-grid-2">
-            <li><a href="cart.html"><i class="fa fa-shopping-cart fa-lg"></i>Cart  </a></li>
-            <li><a href="#" data-reveal-id="loginModal"><i class="fa fa-user fa-lg"></i>Login</a></li>
+      </div>
+      <!--Content-->
+      <section class="row container content">
+        <ul class="small-block-grid-3 small-11 columns small-centered">
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Basic</li>
+              <li class="price">$9.95</li>
+              <li class="bullet-item">Identity &amp; SSN Verification</li>
+              <li class="bullet-item">Single Statewide Criminal Check</li>
+              <li class="bullet-item">Statewide Sex Offender Check</li>
+              <li class="bullet-item">Terrorist Watch List</li>
+              <li class="cta-button"><a class="button radius expand green">Get Started</a></li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table">
+              <li class="title">Premium</li>
+              <li class="price">$19.95</li>
+              <li class="bullet-item">Credit Report w\ Score</li>
+              <li class="bullet-item">Identity &amp; SSN Verification</li>
+              <li class="bullet-item">Nationwide Criminal Check</li>
+              <li class="bullet-item">National Sex Offender Check</li>
+              <li class="bullet-item">Terrorist Watch List</li>
+              <li class="cta-button"><a class="button radius expand green">Get Started</a></li>
+            </ul>
+          </li>
+          <li>
+            <ul class="pricing-table pricing-table-highlight">
+              <li class="title">Ultimate</li>
+              <li class="price">$29.95</li>
+              <li class="bullet-item">Credit Report w\ Score</li>
+              <li class="bullet-item">Identity &amp; SSN Verification</li>
+              <li class="bullet-item">Nationwide Criminal Check</li>
+              <li class="bullet-item">National Sex Offender Check</li>
+              <li class="bullet-item">Address History w\ Evictions</li>
+              <li class="bullet-item">Judgment Check</li>
+              <li class="bullet-item">Bankruptcy Check</li>
+              <li class="bullet-item">Tax Lien Check</li>
+              <li class="bullet-item">Terrorist Watch List</li>
+              <li class="cta-button"><a class="button radius expand green">Get Started</a></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <!--Footer-->
+      <div class="row secondary-menu text-center">
+        <div class="secondary-menu-content">
+          <ul class="inline-list small-10 small-centered columns no-margin">
+            <li><a href="#">Security Information</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="privacy-policy.html">Read Our Privacy</a></li>
+            <li><a href="#">Statement</a></li>
           </ul>
-          <div style="position: absolute; top:-20px; left:15px; font-size:.8rem; color: #51749a;"><a href="callto:8888781595">Call Us: (888) 878-1595 </a></div>
         </div>
       </div>
     </div>
-    <div class="row container text-center">
-      <ul class="small-block-grid-3 small-11 columns small-centered">
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Basic</li>
-            <li class="price">$9.95</li>
-            <li class="bullet-item">Identity &amp; SSN Verification</li>
-            <li class="bullet-item">Single Statewide Criminal Check</li>
-            <li class="bullet-item">Statewide Sex Offender Check</li>
-            <li class="bullet-item">Terrorist Watch List</li>
-            <li class="cta-button"><a class="button radius expand green">Get Started</a></li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table">
-            <li class="title">Premium</li>
-            <li class="price">$19.95</li>
-            <li class="bullet-item">Credit Report w\ Score</li>
-            <li class="bullet-item">Identity &amp; SSN Verification</li>
-            <li class="bullet-item">Nationwide Criminal Check</li>
-            <li class="bullet-item">National Sex Offender Check</li>
-            <li class="bullet-item">Terrorist Watch List</li>
-            <li class="cta-button"><a class="button radius expand green">Get Started</a></li>
-          </ul>
-        </li>
-        <li>
-          <ul class="pricing-table pricing-table-highlight">
-            <li class="title">Ultimate</li>
-            <li class="price">$29.95</li>
-            <li class="bullet-item">Credit Report w\ Score</li>
-            <li class="bullet-item">Identity &amp; SSN Verification</li>
-            <li class="bullet-item">Nationwide Criminal Check</li>
-            <li class="bullet-item">National Sex Offender Check</li>
-            <li class="bullet-item">Address History w\ Evictions</li>
-            <li class="bullet-item">Judgment Check</li>
-            <li class="bullet-item">Bankruptcy Check</li>
-            <li class="bullet-item">Tax Lien Check</li>
-            <li class="bullet-item">Terrorist Watch List</li>
-            <li class="cta-button"><a class="button radius expand green">Get Started</a></li>
-          </ul>
-        </li>
-      </ul>
+    <!--Modals-->
+    <div class="row">
+      <div id="loginModal" data-reveal class="tiny reveal-modal">
+        <h4 class="text-center">Members Area</h4>
+        <p class="small-10 columns small-centered reveal-modal-subtitle">Sign in to your First Choice account below<br>or <a href="#" data-reveal-id="passwordRecoverModal">recover your password</a></p><a class="close-reveal-modal">&#215;</a>
+        <form action="order-step-1.html" class="small-10 small-centered columns">
+          <div class="row">
+            <label>Email
+              <input type="text">
+            </label>
+            <label>Password
+              <input type="password">
+            </label>
+          </div>
+          <div class="row">
+            <input type="submit" value="Log In" class="button dark-blue radius expand">
+          </div>
+        </form>
+      </div>
+      <div class="row">
+        <div id="passwordRecoverModal" data-reveal class="tiny reveal-modal">
+          <h4 class="text-center">We'll send you<br> a new password</h4><a class="close-reveal-modal">&#215;</a>
+          <form class="small-10 small-centered columns">
+            <div class="row">
+              <label>Email
+                <input type="text" placeholder="Type the e-mail you have registered">
+              </label>
+            </div>
+            <div class="row">
+              <input type="submit" value="Recover Password" class="button dark-blue radius expand no-margin">
+            </div>
+            <div class="row text-center reveal-modal-back"><a data-reveal-id="loginModal">Back</a></div>
+          </form>
+        </div>
+      </div>
     </div>
-    <!-- build:js js/vendor/libraries.min.js-->
-    <!-- bower:js-->
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/fastclick/lib/fastclick.js"></script>
-    <!-- endbower-->
-    <!-- endbuild-->
-    <!-- build:js js/vendor/foundation.min.js-->
-    <script src="bower_components/foundation/js/foundation/foundation.js"></script>
-    <script src="bower_components/foundation/js/foundation/foundation.abide.js"></script>
-    <script src="bower_components/foundation/js/foundation/foundation.accordion.js"></script>
-    <script src="bower_components/foundation/js/foundation/foundation.alert.js"></script>
-    <script src="bower_components/foundation/js/foundation/foundation.clearing.js"></script>
-    <script src="bower_components/foundation/js/foundation/foundation.dropdown.js"></script>
-    <script src="bower_components/foundation/js/foundation/foundation.equalizer.js"></script>
-    <script src="bower_components/foundation/js/foundation/foundation.interchange.js"></script>
-    <script src="bower_components/foundation/js/foundation/foundation.joyride.js"></script>
-    <script src="bower_components/foundation/js/foundation/foundation.magellan.js"></script>
-    <script src="bower_components/foundation/js/foundation/foundation.offcanvas.js"></script>
-    <script src="bower_components/foundation/js/foundation/foundation.orbit.js"></script>
-    <script src="bower_components/foundation/js/foundation/foundation.reveal.js"></script>
-    <script src="bower_components/foundation/js/foundation/foundation.slider.js"></script>
-    <script src="bower_components/foundation/js/foundation/foundation.tab.js"></script>
-    <script src="bower_components/foundation/js/foundation/foundation.tooltip.js"></script>
-    <script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>
-    <!-- endbuild-->
-    <!-- build:js js/app.min.js-->
-    <script src="js/app.js"></script>
-    <!-- endbuild-->
   </body>
+  <!-- build:js js/vendor/libraries.min.js-->
+  <!-- bower:js-->
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/fastclick/lib/fastclick.js"></script>
+  <!-- endbower-->
+  <!-- endbuild-->
+  <!-- build:js js/vendor/foundation.min.js-->
+  <script src="bower_components/foundation/js/foundation/foundation.js"></script>
+  <script src="bower_components/foundation/js/foundation/foundation.abide.js"></script>
+  <script src="bower_components/foundation/js/foundation/foundation.accordion.js"></script>
+  <script src="bower_components/foundation/js/foundation/foundation.alert.js"></script>
+  <script src="bower_components/foundation/js/foundation/foundation.clearing.js"></script>
+  <script src="bower_components/foundation/js/foundation/foundation.dropdown.js"></script>
+  <script src="bower_components/foundation/js/foundation/foundation.equalizer.js"></script>
+  <script src="bower_components/foundation/js/foundation/foundation.interchange.js"></script>
+  <script src="bower_components/foundation/js/foundation/foundation.joyride.js"></script>
+  <script src="bower_components/foundation/js/foundation/foundation.magellan.js"></script>
+  <script src="bower_components/foundation/js/foundation/foundation.offcanvas.js"></script>
+  <script src="bower_components/foundation/js/foundation/foundation.orbit.js"></script>
+  <script src="bower_components/foundation/js/foundation/foundation.reveal.js"></script>
+  <script src="bower_components/foundation/js/foundation/foundation.slider.js"></script>
+  <script src="bower_components/foundation/js/foundation/foundation.tab.js"></script>
+  <script src="bower_components/foundation/js/foundation/foundation.tooltip.js"></script>
+  <script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>
+  <!-- endbuild-->
+  <!-- build:js js/app.min.js-->
+  <script src="js/app.js"></script>
+  <!-- endbuild-->
 </html>

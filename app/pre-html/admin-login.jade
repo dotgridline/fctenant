@@ -1,0 +1,24 @@
+extends includes/layout-template
+
+block content
+  // Content
+  div.admin-login
+    div.text-center
+      a(href="index.html"): img.logo(src="images/logo.png")
+
+    .small-6.columns.small-centered
+      .panel.admin-login-panel
+        form.small-10.columns.small-centered(action="#", data-abide)
+          h5.text-center Admin Area
+          label
+            | Username
+            input(type="text", name="admin-user", required)
+          label
+            | Password
+            input(type="password", name="admin-pass", required)
+          input.button.radius.expand(type="button", name="admin-pass", value="Sign in", required)
+            
+  div.row.secondary-menu.text-center
+    div.secondary-menu-content
+      .small-10.columns.small-centered
+        a(href="index.html") Back to Website

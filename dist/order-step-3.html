@@ -1,42 +1,48 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
+  <!-- Head-->
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation project</title>
+    <title>First Choice Tenant</title>
     <link rel="stylesheet" href="css/libraries.min.css">
     <link rel="stylesheet" href="css/app.min.css">
     <script src="js/vendor/modernizr.min.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]-->
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   </head>
-  <body>
+  <body class="order-step-3">
+    <!--Page Wrap-->
     <div class="page-wrap">
-      <!-- Menu-->
+      <!-- Header-->
       <div class="row container">
         <div class="small-12 columns main-menu">
           <div class="small-3 columns"><a href="index.html"><img src="images/logo.png" class="logo"></a></div>
           <div class="small-5 small-offset-2 columns">
-            <ul class="inline-list main-menu-items">
+            <ul class="inline-list main-menu-items right">
               <li><a href="index.html" title="Home" class="selected">Home</a>
               </li>
-              <li><a href="pricing_v2.html" title="Pricing">Pricing</a>
-              </li>
               <li><a href="#" title="Coverage">Coverage</a>
+              </li>
+              <li><a href="privacy-policy.html" title="Privacy">Privacy</a>
               </li>
               <li><a href="contact.html" title="Contact">Contact</a>
               </li>
             </ul>
           </div>
-          <div class="small-2 columns main-menu-block">
+          <div style="position:relative;" class="small-2 columns main-menu-block">
             <ul class="small-block-grid-2">
-              <li><a href="cart.html"><i class="fa fa-shopping-cart fa-lg"></i>Cart  </a></li>
+              <li><a href="cart.html"><i class="fa fa-shopping-cart fa-lg"></i>Cart</a></li>
               <li><a href="#" data-reveal-id="loginModal"><i class="fa fa-user fa-lg"></i>Login</a></li>
             </ul>
+            <div style="position: absolute; top:-20px; left:15px; font-size:.8rem; color: #51749a;"><a href="callto:8888781595">Call Us: (888) 878-1595</a></div>
           </div>
         </div>
       </div>
-      <!-- Content-->
-      <div class="row container content">
-        <!-- Steps Panel -->
+      <!--Content-->
+      <section class="row container content">
+        <!-- Steps Panel-->
         <div class="row">
           <ul class="small-block-grid-3 panel-step">
             <li class="panel-step-1">
@@ -60,7 +66,7 @@
             </li>
           </ul>
         </div>
-        <!-- Order Information -->
+        <!-- Order Information-->
         <div class="row order-information">
           <div class="small-7 columns">
             <!-- Billing Information-->
@@ -152,7 +158,7 @@
                         <option value="WA">Washington</option>
                         <option value="WV">West Virginia</option>
                         <option value="WI">Wisconsin</option>
-                        <option value="WY">Wyoming                    </option>
+                        <option value="WY">Wyoming</option>
                       </select>
                     </label>
                     <label>Phone Number
@@ -162,16 +168,16 @@
                 </form>
               </div>
             </div>
-            <!-- Credit Card Information -->
-            <div class="row credit-card-info">       
+            <!-- Credit Card Information-->
+            <div class="row credit-card-info">
               <div class="row">
-                <h3 class="small-12 columns">Credit Card Information          </h3>
+                <h3 class="small-12 columns">Credit Card Information</h3>
               </div>
               <div class="row">
                 <form action="" class="small-12 columns">
-                  <!-- Payment Method -->
+                  <!-- Payment Method-->
                   <div class="payment-method">
-                    <!-- In-house Credit Card -->
+                    <!-- In-house Credit Card-->
                     <ul class="small-block-grid-5">
                       <li>
                         <label class="credit-cards">
@@ -193,14 +199,14 @@
                           <input type="radio" name="payment-method" tabindex="14"><img src="images/icon-discover.png" alt="">
                         </label>
                       </li>
-                      <!-- PayPal Payment -->
+                      <!-- PayPal Payment-->
                       <li>
                         <label class="credit-cards">
                           <input type="radio" name="payment-method" tabindex="15" id="paypal-payment"><img src="images/icon-paypal.png" alt="">
                         </label>
                       </li>
                     </ul>
-                    <!-- Credit Card Form -->
+                    <!-- Credit Card Form-->
                     <div id="cc-form" class="row">
                       <!--Left Column-->
                       <div class="small-6 columns">
@@ -229,7 +235,7 @@
                         </label>
                       </div>
                       <!--Right Column-->
-                      <div class="small-6 columns">                
+                      <div class="small-6 columns">
                         <label>Last Name on card
                           <input type="text" name="" placeholder="ex: SMITH" tabindex="17">
                         </label>
@@ -256,9 +262,9 @@
                 </form>
               </div>
             </div>
-            <!-- Agreement & Terms Information -->
+            <!-- Agreement & Terms Information-->
             <div class="row terms-conditions">
-              <div class="row">           
+              <div class="row">
                 <div class="small-12 columns">
                   <h4 class="terms-conditions-title">Agreement</h4>
                   <div class="terms-conditions-content">
@@ -284,13 +290,13 @@
                 </div>
               </div>
             </div>
-            <!-- Credit Card Information -->
+            <!-- Credit Card Information-->
             <div id="cc-btn" class="row container">
               <div class="small-4 small-centered columns">
                 <input type="submit" value="Complete Order" tabindex="24" class="button green radius expand">
               </div>
             </div>
-            <!-- Paypal Button -->
+            <!-- Paypal Button-->
             <div id="pp-btn" class="row container">
               <div class="small-8 small-centered columns">
                 <input type="submit" value="Complete Order using your Paypal Account" tabindex="24" class="button green radius expand">
@@ -318,18 +324,18 @@
                   <h5 class="text-center">$9.95</h5>
                 </div>
               </div>
-              <div class="row"> 
+              <div class="row">
                 <div class="small-10 columns small-centered"><a class="button red radius tiny expand no-margin">remove</a></div>
               </div>
               <hr>
-              <div class="row"> 
+              <div class="row">
                 <div class="small-10 columns small-centered"><a class="button green radius tiny expand">Add another check to this search</a></div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- Footer-->
+      </section>
+      <!--Footer-->
       <div class="row secondary-menu text-center">
         <div class="secondary-menu-content">
           <ul class="inline-list small-10 small-centered columns no-margin">
@@ -341,79 +347,78 @@
           </ul>
         </div>
       </div>
-      <!-- Modals-->
+    </div>
+    <!--Modals-->
+    <div class="row">
+      <div id="loginModal" data-reveal class="tiny reveal-modal">
+        <h4 class="text-center">Members Area</h4>
+        <p class="small-10 columns small-centered reveal-modal-subtitle">Sign in to your First Choice account below<br>or <a href="#" data-reveal-id="passwordRecoverModal">recover your password</a></p><a class="close-reveal-modal">&#215;</a>
+        <form action="order-step-1.html" class="small-10 small-centered columns">
+          <div class="row">
+            <label>Email
+              <input type="text">
+            </label>
+            <label>Password
+              <input type="password">
+            </label>
+          </div>
+          <div class="row">
+            <input type="submit" value="Log In" class="button dark-blue radius expand">
+          </div>
+        </form>
+      </div>
       <div class="row">
-        <div id="loginModal" data-reveal class="tiny reveal-modal">
-          <h4 class="text-center">Members Area</h4>
-          <p class="small-10 columns small-centered reveal-modal-subtitle">Sign in to your First Choice account below<br>or <a href="#" data-reveal-id="passwordRecoverModal">recover your password</a></p><a class="close-reveal-modal">&#215;</a>
-          <form action="order-step-1.html" class="small-10 small-centered columns">
+        <div id="passwordRecoverModal" data-reveal class="tiny reveal-modal">
+          <h4 class="text-center">We'll send you<br> a new password</h4><a class="close-reveal-modal">&#215;</a>
+          <form class="small-10 small-centered columns">
             <div class="row">
               <label>Email
-                <input type="text">
-              </label>
-              <label>Password
-                <input type="password">
+                <input type="text" placeholder="Type the e-mail you have registered">
               </label>
             </div>
             <div class="row">
-              <input type="submit" value="Log In" class="button dark-blue radius expand">
+              <input type="submit" value="Recover Password" class="button dark-blue radius expand no-margin">
             </div>
+            <div class="row text-center reveal-modal-back"><a data-reveal-id="loginModal">Back</a></div>
           </form>
-        </div>
-        <div class="row">
-          <div id="passwordRecoverModal" data-reveal class="tiny reveal-modal">
-            <h4 class="text-center">We'll send you<br> a new password</h4><a class="close-reveal-modal">&#215;</a>
-            <form class="small-10 small-centered columns">
-              <div class="row">
-                <label>Email
-                  <input type="text" placeholder="Type the e-mail you have registered">
-                </label>
-              </div>
-              <div class="row">
-                <input type="submit" value="Recover Password" class="button dark-blue radius expand no-margin">
-              </div>
-              <div class="row text-center reveal-modal-back"><a data-reveal-id="loginModal">Back</a></div>
-            </form>
-          </div>
         </div>
       </div>
     </div>
-    <!-- Footer-->
-    <script src="js/vendor/libraries.min.js"></script>
-    <script src="js/vendor/foundation.min.js"></script>
-    <script src="js/app.min.js"></script>
-    <script>
-      $( document ).ready(function() {
-      
-        $( ".credit-cards").click(function() {
-          if ($('#paypal-payment').prop('checked') == true) {
-           $('#pp-btn').css("display","block");
-           $('#cc-btn').css("display","none");
-           $('#cc-form').css("display","none");
-          }
-          else{
-           $('#pp-btn').css("display","none");
-           $('#cc-btn').css("display","block");
-           $('#cc-form').css("display","block");
-          }
-        });
-        
-        var cartdetailTop = $('.cart-detail').offset().top; // Get initial position
-        $(window).scroll(function() {            // Assign scroll event listener
-          var currentScroll = $(window).scrollTop(); // Get current position
-            if (currentScroll >= cartdetailTop) { // Make it fixed if you've scrolled to it
-                $('.cart-detail').css({
-                    position: 'fixed',
-                    width:'303px',
-                    top: '0',
-                });
-            } else {                       // Make it static if you scroll above
-                $('.cart-detail').css({
-                    position: 'static'
-                });
-            }
-        });
-      });    
-    </script>
   </body>
+  <script src="js/vendor/libraries.min.js"></script>
+  <script src="js/vendor/foundation.min.js"></script>
+  <script src="js/app.min.js"></script>
+  <script>
+    $( document ).ready(function() {
+    
+      $( ".credit-cards").click(function() {
+        if ($('#paypal-payment').prop('checked') == true) {
+         $('#pp-btn').css("display","block");
+         $('#cc-btn').css("display","none");
+         $('#cc-form').css("display","none");
+        }
+        else{
+         $('#pp-btn').css("display","none");
+         $('#cc-btn').css("display","block");
+         $('#cc-form').css("display","block");
+        }
+      });
+      
+      var cartdetailTop = $('.cart-detail').offset().top; // Get initial position
+      $(window).scroll(function() {            // Assign scroll event listener
+        var currentScroll = $(window).scrollTop(); // Get current position
+          if (currentScroll >= cartdetailTop) { // Make it fixed if you've scrolled to it
+              $('.cart-detail').css({
+                  position: 'fixed',
+                  width:'303px',
+                  top: '0',
+              });
+          } else {                       // Make it static if you scroll above
+              $('.cart-detail').css({
+                  position: 'static'
+              });
+          }
+      });
+    });
+  </script>
 </html>

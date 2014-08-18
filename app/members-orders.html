@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
+  <!-- Head-->
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation project</title>
+    <title>First Choice Tenant</title>
     <!-- build:css css/libraries.min.css-->
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
     <!-- bower:css-->
@@ -16,38 +17,40 @@
     <!-- build:js js/vendor/modernizr.min.js-->
     <script src="bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild-->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]-->
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   </head>
-</html>
-<body>
-  <div class="page-wrap">
-    <!-- Menu-->
-    <div class="row container">
-      <div class="small-12 columns main-menu">
-        <div class="small-3 columns"><a href="index.html"><img src="images/logo.png" class="logo"></a></div>
-        <div class="small-5 small-offset-2 columns">
-          <ul class="inline-list main-menu-items">
-            <li><a href="index.html" title="Home" class="selected">Home</a>
-            </li>
-            <li><a href="pricing_v2.html" title="Pricing">Pricing</a>
-            </li>
-            <li><a href="#" title="Coverage">Coverage</a>
-            </li>
-            <li><a href="contact.html" title="Contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-        <div style="position:relative;" class="small-2 columns main-menu-block">
-          <ul class="small-block-grid-2">
-            <li><a href="cart.html"><i class="fa fa-shopping-cart fa-lg"></i>Cart  </a></li>
-            <li><a href="#" data-reveal-id="loginModal"><i class="fa fa-user fa-lg"></i>Login</a></li>
-          </ul>
-          <div style="position: absolute; top:-20px; left:15px; font-size:.8rem; color: #51749a;"><a href="callto:8888781595">Call Us: (888) 878-1595 </a></div>
+  <body>
+    <!--Page Wrap-->
+    <div class="page-wrap">
+      <!-- Header-->
+      <div class="row container">
+        <div class="small-12 columns main-menu">
+          <div class="small-3 columns"><a href="index.html"><img src="images/logo.png" class="logo"></a></div>
+          <div class="small-5 small-offset-2 columns">
+            <ul class="inline-list main-menu-items right">
+              <li><a href="index.html" title="Home" class="selected">Home</a>
+              </li>
+              <li><a href="#" title="Coverage">Coverage</a>
+              </li>
+              <li><a href="privacy-policy.html" title="Privacy">Privacy</a>
+              </li>
+              <li><a href="contact.html" title="Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div style="position:relative;" class="small-2 columns main-menu-block">
+            <ul class="small-block-grid-2">
+              <li><a href="cart.html"><i class="fa fa-shopping-cart fa-lg"></i>Cart</a></li>
+              <li><a href="#" data-reveal-id="loginModal"><i class="fa fa-user fa-lg"></i>Login</a></li>
+            </ul>
+            <div style="position: absolute; top:-20px; left:15px; font-size:.8rem; color: #51749a;"><a href="callto:8888781595">Call Us: (888) 878-1595</a></div>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- Content-->
-    <div class="row container content">
-      <div class="row container">
+      <!--Content-->
+      <section class="row container content">
         <div class="small-2 columns menu-side"><a class="button green radius small expand no-margin">New Search</a>
           <hr>
           <ul class="no-bullet text-center">
@@ -62,7 +65,7 @@
           </form>
         </div>
         <div class="small-9 small-offset-1 columns">
-          <table class="small-12 columns radius">
+          <table class="small-12 columns radius orders-list">
             <thead>
               <tr>
                 <th>Date</th>
@@ -111,21 +114,21 @@
             </tbody>
           </table>
         </div>
+      </section>
+      <!--Footer-->
+      <div class="row secondary-menu text-center">
+        <div class="secondary-menu-content">
+          <ul class="inline-list small-10 small-centered columns no-margin">
+            <li><a href="#">Security Information</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="privacy-policy.html">Read Our Privacy</a></li>
+            <li><a href="#">Statement</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-    <!-- Footer-->
-    <div class="row secondary-menu text-center">
-      <div class="secondary-menu-content">
-        <ul class="inline-list small-10 small-centered columns no-margin">
-          <li><a href="#">Security Information</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="#">Sitemap</a></li>
-          <li><a href="privacy-policy.html">Read Our Privacy</a></li>
-          <li><a href="#">Statement</a></li>
-        </ul>
-      </div>
-    </div>
-    <!-- Modals-->
+    <!--Modals-->
     <div class="row">
       <div id="loginModal" data-reveal class="tiny reveal-modal">
         <h4 class="text-center">Members Area</h4>
@@ -161,8 +164,7 @@
         </div>
       </div>
     </div>
-  </div>
-  <!-- Footer-->
+  </body>
   <!-- build:js js/vendor/libraries.min.js-->
   <!-- bower:js-->
   <script src="bower_components/jquery/dist/jquery.js"></script>
@@ -191,4 +193,4 @@
   <!-- build:js js/app.min.js-->
   <script src="js/app.js"></script>
   <!-- endbuild-->
-</body>
+</html>

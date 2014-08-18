@@ -1,0 +1,61 @@
+extends includes/layout-template
+
+block body-bg-image
+  - var bodyClass = 'products';
+
+block content
+  // Package Options
+  div.row
+    // Base Package
+    div.small-3.columns
+      ul.pricing-table
+        li.title Base Package
+        li.bullet-item
+          input(type="checkbox", name="basic-report", id="basic-report", checked)
+          label(for="basic-report") Basic Report
+        li.bullet-item
+          input(type="checkbox", name="sex-offenders-report", id="sex-offenders-report", checked)
+          label(for="sex-offenders-report") Sex Offenders
+        li.bullet-item
+          input(type="checkbox", name="ofac-report", id="ofac-report", checked)
+          label(for="ofac-report") OFAC Report
+        li.bullet-item
+          input(type="checkbox", name="eviction-report", id="eviction-report", checked)
+          label(for="eviction-report") Eviction Report
+
+    //Addons
+    div.small-8.small-offset-1.columns
+      ul.pricing-table.small-block-grid-2 
+        li.alignment-hack       
+        li(class="title",style="width:100%") Addons
+        li.bullet-item
+          input(type="checkbox", name="basic-report", id="basic-report")
+          label(for="basic-report") Credit Report
+        li.bullet-item
+          input(type="checkbox", name="sex-offenders-report", id="sex-offenders-report")
+          label(for="sex-offenders-report") County Criminal
+        li.bullet-item
+          input(type="checkbox", name="ofac-report", id="ofac-report")
+          label(for="ofac-report") Judgment Search
+        li.bullet-item
+          input(type="checkbox", name="eviction-report", id="eviction-report")
+          label(for="eviction-report") Assured Tenant
+        li.bullet-item
+          input(type="checkbox", name="basic-report", id="basic-report")
+          label(for="basic-report") Court Actions         
+        li.bullet-item
+          input(type="checkbox", name="sex-offenders-report", id="sex-offenders-report")
+          label(for="sex-offenders-report") Unlawful Detainers
+        li.bullet-item
+          input(type="checkbox", name="ofac-report", id="ofac-report")
+          label(for="ofac-report") Monetary Judgments
+        li.bullet-item
+          input(type="checkbox", name="eviction-report", id="eviction-report")
+          label(for="eviction-report") Court Ordered Possession
+        li.bullet-item
+          input(type="checkbox", name="sex-offenders-report", id="sex-offenders-report")
+          label(for="sex-offenders-report") Property Damage Claims
+
+  // Next Button
+  div.row
+    input(type="submit", class="button green radius small-2 small-offset-10 columns", value="Next")

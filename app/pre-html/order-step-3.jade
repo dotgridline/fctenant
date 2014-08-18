@@ -1,0 +1,301 @@
+extends includes/layout-template
+
+block body-bg-image
+  - var bodyClass = 'order-step-3';
+    
+block content
+  // Steps Panel
+  div.row
+      ul.small-block-grid-3.panel-step
+        li.panel-step-1
+          div.number-highlight.small-4.columns 1
+          div.small-8.columns.number-description
+            div.panel-highlight Tenant
+            | Verification
+        li.panel-step-2
+          div.number-highlight.small-4.columns 2
+          div.small-8.columns.number-description
+            div.panel-highlight Select Your
+            | Package
+        li.panel-step-3
+          div.number-highlight.small-4.columns 3
+          div.small-8.columns.number-description
+            div.panel-highlight Download
+            | Reports
+          div.step-indicator
+
+  // Order Information
+  div.row.order-information
+    .small-7.columns
+
+      // Billing Information
+      div.row.billing-info
+        div.row
+          h3.small-12.columns Personal Information
+        div.row
+          form(action="")
+
+            //Left Column
+            div.small-6.columns
+              label First Name
+                    input(type="text", name="personal-info-first-name", tabindex="1")
+
+              label Email
+                    input(type="text", name="personal-info-email", tabindex="3")
+
+              label Billing Address 1
+                    input(type="text", name="personal-info-address-1", tabindex="5")
+
+              label City
+                    input(type="text", name="personal-info-city", tabindex="7")
+
+              label Zip Code
+                    input(type="text", name="personal-info-zip", tabindex="9")
+
+            //Right Column
+            div.small-6.columns
+              label Last Name
+                    input(type="text", name="personal-info-last-name", tabindex="2")
+
+              label Email&nbsp;(Confirm)
+                    input(type="text", name="personal-info-email", tabindex="4")
+
+              label Billing Address 2
+                    input(type="text", name="personal-info-address-2", tabindex="6")
+
+              label State
+                    select(name="personal-info-state", tabindex="8")
+                      option(value="", disabled, selected) Please Select
+                      option(value="AL") Alabama
+                      option(value="AK") Alaska
+                      option(value="AZ") Arizona
+                      option(value="AR") Arkansas
+                      option(value="CA") California
+                      option(value="CO") Colorado
+                      option(value="CT") Connecticut
+                      option(value="DE") Delaware
+                      option(value="DC") District Of Columbia
+                      option(value="FL") Florida
+                      option(value="GA") Georgia
+                      option(value="HI") Hawaii
+                      option(value="ID") Idaho
+                      option(value="IL") Illinois
+                      option(value="IN") Indiana
+                      option(value="IA") Iowa
+                      option(value="KS") Kansas
+                      option(value="KY") Kentucky
+                      option(value="LA") Louisiana
+                      option(value="ME") Maine
+                      option(value="MD") Maryland
+                      option(value="MA") Massachusetts
+                      option(value="MI") Michigan
+                      option(value="MN") Minnesota
+                      option(value="MS") Mississippi
+                      option(value="MO") Missouri
+                      option(value="MT") Montana
+                      option(value="NE") Nebraska
+                      option(value="NV") Nevada
+                      option(value="NH") New Hampshire
+                      option(value="NJ") New Jersey
+                      option(value="NM") New Mexico
+                      option(value="NY") New York
+                      option(value="NC") North Carolina
+                      option(value="ND") North Dakota
+                      option(value="OH") Ohio
+                      option(value="OK") Oklahoma
+                      option(value="OR") Oregon
+                      option(value="PA") Pennsylvania
+                      option(value="RI") Rhode Island
+                      option(value="SC") South Carolina
+                      option(value="SD") South Dakota
+                      option(value="TN") Tennessee
+                      option(value="TX") Texas
+                      option(value="UT") Utah
+                      option(value="VT") Vermont
+                      option(value="VA") Virginia
+                      option(value="WA") Washington
+                      option(value="WV") West Virginia
+                      option(value="WI") Wisconsin
+                      option(value="WY") Wyoming
+              label Phone Number
+                    input(type="text", name="personal-info-phone", tabindex="10")
+
+      // Credit Card Information
+      div.row.credit-card-info
+        div.row
+          h3.small-12.columns Credit Card Information
+        div.row
+          form(class="small-12 columns", action="")
+
+            // Payment Method
+            div.payment-method
+              // In-house Credit Card
+              ul.small-block-grid-5
+                li
+                  label.credit-cards
+                    input(type="radio", name="payment-method", tabindex="11")
+                    img(src="images/icon-mastercard.png", alt="")
+                li
+                  label.credit-cards
+                    input(type="radio", name="payment-method", tabindex="12")
+                    img(src="images/icon-visa.png",alt="")
+                li
+                  label.credit-cards
+                    input(type="radio", name="payment-method", tabindex="13")
+                    img(src="images/icon-amex.png", alt="")
+                li
+                  label.credit-cards
+                    input(type="radio", name="payment-method", tabindex="14")
+                    img(src="images/icon-discover.png", alt="")
+
+                // PayPal Payment
+                li
+                  label.credit-cards
+                    input(type="radio", name="payment-method", tabindex="15", id="paypal-payment")
+                    img(src="images/icon-paypal.png", alt="")
+
+
+
+              // Credit Card Form
+              div(class="row", id="cc-form")
+
+                //Left Column
+                div.small-6.columns
+                  label First name on card
+                    input(type="text", name="", placeholder="ex: JOHN", tabindex="16")
+
+                  label Credit Card Number
+                    input(type="text", name="", placeholder="Only Numbers - Without Space", tabindex="18")
+
+                  label Expiration Date (Month)
+                    select(name="", id="", tabindex="20")
+                      option(value="", selected, disabled) Please Select
+                      option(value="01") (01) Jan
+                      option(value="02") (02) Feb
+                      option(value="03") (03) Mar
+                      option(value="04") (04) Apr
+                      option(value="05") (05) May
+                      option(value="06") (06) Jun
+                      option(value="07") (07) Jul
+                      option(value="08") (08) Aug
+                      option(value="09") (09) Sep
+                      option(value="10") (10) Oct
+                      option(value="11") (11) Nov
+                      option(value="12") (12) Dec
+
+
+                //Right Column
+                div.small-6.columns
+                  label Last Name on card
+                    input(type="text", name="", placeholder="ex: SMITH", tabindex="17")
+
+                  label CVV&nbsp;(Security Code on Back of Card)
+                    div.row
+                      div.small-9.columns
+                        input(type="text", name="", tabindex="19")
+
+                      div.small-3.columns
+                        img(src="images/icon-credit.png", alt="")
+
+                  label Expiration Date (Year)
+                    select(name="", id="", tabindex="21")
+                      option(value="", selected, disabled) Please Select
+                      option(value="2015") 2015
+                      option(value="2016") 2016
+                      option(value="2017") 2017
+                      option(value="2018") 2018
+
+      // Agreement & Terms Information
+      div.row.terms-conditions
+        div.row
+          div.small-12.columns
+            h4.terms-conditions-title Agreement
+            div.terms-conditions-content
+              label(for="",tabindex="22")
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                ul
+                  li Lorem ipsum dolor sit amet
+                  li Lorem ipsum dolor sit amet
+                  li Lorem ipsum dolor sit amet
+                  li Lorem ipsum dolor sit amet
+                  li Lorem ipsum dolor sit amet
+
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+        // Agreement checkbox
+        div.row
+          div.small-12.columns
+            input(type="checkbox", name="", value="", tabindex="23")
+            label I have read and agree with the <a href="#">Terms and Conditions</a> and <a href="#">Coverage Policy</a>
+
+      // Credit Card Information
+      div(class="row container", id="cc-btn")
+        div.small-4.small-centered.columns
+          input(type="submit", value="Complete Order", class="button green radius expand", tabindex="24")
+
+      // Paypal Button
+      div(class="row container", id="pp-btn")
+        div.small-8.small-centered.columns
+          input(type="submit", value="Complete Order using your Paypal Account", class="button green radius expand", tabindex="24")
+
+        // --- End: Order Information ---
+
+    // Cart Detail
+    div.small-4.columns
+      div.cart-detail
+        div.row
+          h3.small-12.columns Order Detail
+        div.row
+          div.small-8.columns:  h6 Tenant Report Basic
+                                ul.no-bullet.order-detail-parameter
+                                  li
+                                    span.order-detail-parameter-title Name
+                                    | Thomas Green
+                                  li
+                                    span.order-detail-parameter-title SSN
+                                    | XXXXXXXXX
+                                  li
+                                    span.order-detail-parameter-title DOB
+                                    | XX/XX/XXXX
+          div.small-4.columns: h5.text-center $9.95
+        div.row
+          div.small-10.columns.small-centered
+            a.button.red.radius.tiny.expand.no-margin remove
+        hr
+        div.row
+          div.small-10.columns.small-centered
+            a.button.green.radius.tiny.expand Add another check to this search
+
+block append-to-scripts
+  script.
+    $( document ).ready(function() {
+
+      $( ".credit-cards").click(function() {
+        if ($('#paypal-payment').prop('checked') == true) {
+         $('#pp-btn').css("display","block");
+         $('#cc-btn').css("display","none");
+         $('#cc-form').css("display","none");
+        }
+        else{
+         $('#pp-btn').css("display","none");
+         $('#cc-btn').css("display","block");
+         $('#cc-form').css("display","block");
+        }
+      });
+
+      var cartdetailTop = $('.cart-detail').offset().top; // Get initial position
+      $(window).scroll(function() {            // Assign scroll event listener
+        var currentScroll = $(window).scrollTop(); // Get current position
+          if (currentScroll >= cartdetailTop) { // Make it fixed if you've scrolled to it
+              $('.cart-detail').css({
+                  position: 'fixed',
+                  width:'303px',
+                  top: '0',
+              });
+          } else {                       // Make it static if you scroll above
+              $('.cart-detail').css({
+                  position: 'static'
+              });
+          }
+      });
+    });

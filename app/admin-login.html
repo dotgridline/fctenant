@@ -21,7 +21,7 @@
     <!--[if lt IE 9]-->
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   </head>
-  <body class="search-loupe">
+  <body>
     <!--Page Wrap-->
     <div class="page-wrap">
       <!-- Header-->
@@ -51,48 +51,28 @@
       </div>
       <!--Content-->
       <section class="row container content">
-        <!--Order Steps-->
-        <div class="row">
-          <ul class="small-block-grid-3 panel-step">
-            <li class="panel-step-1">
-              <div class="number-highlight small-4 columns left">1</div>
-              <div class="small-8 columns number-description">
-                <div class="panel-highlight">Tenant</div>Verification
-              </div>
-              <div class="step-indicator"></div>
-            </li>
-            <li class="panel-step-2">
-              <div class="number-highlight small-4 columns left">2</div>
-              <div class="small-8 columns number-description">
-                <div class="panel-highlight">Select Your</div>Package
-              </div>
-            </li>
-            <li class="panel-step-3">
-              <div class="number-highlight small-4 columns left">3</div>
-              <div class="small-8 columns number-description">
-                <div class="panel-highlight">Download</div>Reports
-              </div>
-            </li>
-          </ul>
+        <!-- Content-->
+        <div class="admin-login">
+          <div class="text-center"><a href="index.html"><img src="images/logo.png" class="logo"></a></div>
+          <div class="small-6 columns small-centered">
+            <div class="panel admin-login-panel">
+              <form action="#" data-abide class="small-10 columns small-centered">
+                <h5 class="text-center">Admin Area</h5>
+                <label>Username
+                  <input type="text" name="admin-user" required>
+                </label>
+                <label>Password
+                  <input type="password" name="admin-pass" required>
+                </label>
+                <input type="button" name="admin-pass" value="Sign in" required class="button radius expand">
+              </form>
+            </div>
+          </div>
         </div>
-        <!--Search Form-->
-        <div class="row">
-          <form action="order-step-2.html" class="small-4 small-offset-4 end columns">
-            <div class="row">
-              <label>First Name
-                <input type="text">
-              </label>
-              <label>Last Name
-                <input type="text">
-              </label>
-              <label>SSN
-                <input type="text">
-              </label>
-            </div>
-            <div class="row">
-              <input type="submit" value="Search" class="button green radius expand">
-            </div>
-          </form>
+        <div class="row secondary-menu text-center">
+          <div class="secondary-menu-content">
+            <div class="small-10 columns small-centered"><a href="index.html">Back to Website</a></div>
+          </div>
         </div>
       </section>
       <!--Footer-->

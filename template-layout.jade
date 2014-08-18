@@ -1,0 +1,27 @@
+doctype html
+html(class="no-js", lang="en")
+  //Head
+  include head
+  block append-to-head
+
+  body
+    // Wrap
+    div.page-wrap
+      // Menu
+      include main-menu
+
+      //Content Wrap
+      div.row.container.content
+
+        //Content
+        block content
+
+
+    // Footer
+    include secondary-menu
+    // Modals
+    include modals
+
+  // Scripts
+  include scripts
+  block append-to-scripts
